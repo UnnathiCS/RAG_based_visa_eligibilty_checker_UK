@@ -1,0 +1,2062 @@
+[
+  {
+    "SOC code": "1111",
+    "Job type": "Chief executives and senior officials",
+    "Related job titles": "Chairpersons Chief executives Diplomats and foreign office officials Senior public service officials Chief executives and senior officials not elsewhere classified."
+  },
+  {
+    "SOC code": "1112",
+    "Job type": "Elected officers and representatives",
+    "Related job titles": "Assembly members and Members of Parliament Councillors Elected officers and representatives not elsewhere classified."
+  },
+  {
+    "SOC code": "1121",
+    "Job type": "Production managers and directors in manufacturing",
+    "Related job titles": "Production managers and directors in manufacturing"
+  },
+  {
+    "SOC code": "1122",
+    "Job type": "Production managers and directors in construction",
+    "Related job titles": "Production managers and directors in construction"
+  },
+  {
+    "SOC code": "1123",
+    "Job type": "Production managers and directors in mining and energy",
+    "Related job titles": "Managers and directors in the extraction of fossil fuels Managers and directors in the production of energy Production managers and directors in mining and energy not elsewhere classified."
+  },
+  {
+    "SOC code": "1131",
+    "Job type": "Financial managers and directors",
+    "Related job titles": "Bank, building society and post office managers Company secretaries and finance managers and directors Investment bankers and directors Financial managers and directors not elsewhere classified."
+  },
+  {
+    "SOC code": "1132",
+    "Job type": "Marketing, sales and advertising directors",
+    "Related job titles": "Advertising and marketing directors Sales directors Marketing, sales and advertising directors not elsewhere classified."
+  },
+  {
+    "SOC code": "1133",
+    "Job type": "Public relations and communications directors",
+    "Related job titles": "Public relations and communications directors"
+  },
+  {
+    "SOC code": "1134",
+    "Job type": "Purchasing managers and directors",
+    "Related job titles": "Estimating managers and directors Procurement and purchasing managers and directors Purchasing managers and directors not elsewhere classified."
+  },
+  {
+    "SOC code": "1135",
+    "Job type": "Charitable organisation managers and directors",
+    "Related job titles": "Charitable organisation managers and directors"
+  },
+  {
+    "SOC code": "1136",
+    "Job type": "Human resource managers and directors",
+    "Related job titles": "Employee relations managers Equality, diversity and inclusion managers Learning and development managers and directors Recruitment managers and directors Human resources managers and directors not elsewhere classified."
+  },
+  {
+    "SOC code": "1137",
+    "Job type": "Information technology directors",
+    "Related job titles": "Information security directors Information technology operations directors Information technology programme managers and directors Information technology technical directors Information technology directors not elsewhere classified."
+  },
+  {
+    "SOC code": "1139",
+    "Job type": "Functional managers and directors not elsewhere classified.",
+    "Related job titles": "Accounts directors Administration directors Complaints and customer service directors Events directors Intellectual property managers and directors Municipal clerks Research and development directors Functional managers and directors not elsewhere classified."
+  },
+  {
+    "SOC code": "1140",
+    "Job type": "Directors in logistics, warehousing and transport",
+    "Related job titles": "Supply chain directors Directors in logistics, warehousing and transport not elsewhere classified."
+  },
+  {
+    "SOC code": "1150",
+    "Job type": "Managers and directors in retail and wholesale",
+    "Related job titles": "Managers and directors in retail and wholesale"
+  },
+  {
+    "SOC code": "1161",
+    "Job type": "Officers in armed forces",
+    "Related job titles": "Army officers Royal Air Force officers Royal Marines officers Royal Navy officers Officers in armed forces not elsewhere classified."
+  },
+  {
+    "SOC code": "1162",
+    "Job type": "Senior police officers",
+    "Related job titles": "Chief, deputy chief and assistant chief constables Chief inspectors Chief superintendents Senior police officers not elsewhere classified."
+  },
+  {
+    "SOC code": "1163",
+    "Job type": "Senior officers in fire, ambulance, prison and related services",
+    "Related job titles": "Senior officers in ambulance services Senior officers in fire services Senior officers in immigration services Senior officers in prison services Senior officers in revenue and customs"
+  },
+  {
+    "SOC code": "1171",
+    "Job type": "Health services and public health managers and directors",
+    "Related job titles": "Clinical governance and information managers Healthcare service managers and directors Health services and public health managers and directors not elsewhere classified."
+  },
+  {
+    "SOC code": "1172",
+    "Job type": "Social services managers and directors",
+    "Related job titles": "Social services managers and directors"
+  },
+  {
+    "SOC code": "1211",
+    "Job type": "Managers and proprietors in agriculture and horticulture",
+    "Related job titles": "Managers and proprietors in agriculture and horticulture"
+  },
+  {
+    "SOC code": "1212",
+    "Job type": "Managers and proprietors in forestry, fishing and related services",
+    "Related job titles": "Cattery and kennel managers and proprietors Fisheries managers and proprietors Forestry managers Livery yard and stud farm managers and proprietors Racehorse trainers Managers and proprietors in forestry, fishing and related services not elsewhere classified."
+  },
+  {
+    "SOC code": "1221",
+    "Job type": "Hotel and accommodation managers and proprietors",
+    "Related job titles": "Hotel and accommodation managers and proprietors"
+  },
+  {
+    "SOC code": "1222",
+    "Job type": "Restaurant and catering establishment managers and proprietors",
+    "Related job titles": "Café and restaurant managers and proprietors Catering operations managers Takeaway managers and proprietors Restaurant and catering establishment managers and proprietors not elsewhere classified."
+  },
+  {
+    "SOC code": "1223",
+    "Job type": "Publicans and managers of licensed premises",
+    "Related job titles": "Publicans and managers of licensed premises"
+  },
+  {
+    "SOC code": "1224",
+    "Job type": "Leisure and sports managers and proprietors",
+    "Related job titles": "Cinema managers and proprietors Golf course managers Gym, fitness and leisure services managers and proprietors Marina managers Museum managers and proprietors Parks and gardens managers Theatre managers Leisure and sports managers and proprietors not elsewhere classified."
+  },
+  {
+    "SOC code": "1225",
+    "Job type": "Travel agency managers and proprietors",
+    "Related job titles": "Travel agency managers and proprietors"
+  },
+  {
+    "SOC code": "1231",
+    "Job type": "Health care practice managers",
+    "Related job titles": "Dental practice managers Medical practice managers Opticians managers Veterinary practice managers Health care practice managers not elsewhere classified."
+  },
+  {
+    "SOC code": "1232",
+    "Job type": "Residential, day and domiciliary care managers and proprietors",
+    "Related job titles": "Day care managers Home care managers Residential care managers and proprietors Residential, day and domiciliary care managers and proprietors not elsewhere classified."
+  },
+  {
+    "SOC code": "1233",
+    "Job type": "Early education and childcare services proprietors",
+    "Related job titles": "Early education and childcare services proprietors"
+  },
+  {
+    "SOC code": "1241",
+    "Job type": "Managers in transport and distribution",
+    "Related job titles": "Airport managers Depot and fleet managers Dispatch and distribution managers Harbour and port managers Road traffic managers Managers in transport and distribution not elsewhere classified."
+  },
+  {
+    "SOC code": "1242",
+    "Job type": "Managers in storage and warehousing",
+    "Related job titles": "Managers in storage and warehousing"
+  },
+  {
+    "SOC code": "1243",
+    "Job type": "Managers in logistics",
+    "Related job titles": "Managers in logistics"
+  },
+  {
+    "SOC code": "1251",
+    "Job type": "Property, housing and estate managers",
+    "Related job titles": "Facilities managers Landlords, property and housing managers Property investors and developers Sales and lettings managers Shopping centre managers Property, housing and estate managers not elsewhere classified."
+  },
+  {
+    "SOC code": "1252",
+    "Job type": "Garage managers and proprietors",
+    "Related job titles": "Garage managers and proprietors"
+  },
+  {
+    "SOC code": "1253",
+    "Job type": "Hairdressing and beauty salon managers and proprietors",
+    "Related job titles": "Beauty salon managers and proprietors Hairdressing managers and proprietors Hairdressing and beauty salon managers and proprietors not elsewhere classified."
+  },
+  {
+    "SOC code": "1254",
+    "Job type": "Waste disposal and environmental services managers",
+    "Related job titles": "Landfill site managers Recycling managers Scrap yard managers Sewage works and water treatment managers Waste disposal and environmental services managers not elsewhere classified."
+  },
+  {
+    "SOC code": "1255",
+    "Job type": "Managers and directors in the creative industries",
+    "Related job titles": "Art gallery managers and directors Film and television production managers Publishing managers and directors Radio production managers Sport and talent agents Theatre production managers Managers and directors in the creative industries not elsewhere classified."
+  },
+  {
+    "SOC code": "1256",
+    "Job type": "Betting shop and gambling establishment managers",
+    "Related job titles": "Betting shop managers Bingo hall managers Casino managers Betting shop and gambling establishment managers not elsewhere classified."
+  },
+  {
+    "SOC code": "1257",
+    "Job type": "Hire services managers and proprietors",
+    "Related job titles": "Hire services managers and proprietors"
+  },
+  {
+    "SOC code": "1258",
+    "Job type": "Directors in consultancy services",
+    "Related job titles": "Design consultancy directors Environmental consultancy directors Management consultancy directors Surveying consultancy directors Directors in consultancy services not elsewhere classified."
+  },
+  {
+    "SOC code": "1259",
+    "Job type": "Managers and proprietors in other services not elsewhere classified.",
+    "Related job titles": "Cleaning and hygiene services managers and proprietors Educational establishment managers and proprietors Funeral services and crematorium managers and proprietors Library managers Recruitment agency managers and proprietors Security services managers and proprietors Managers and proprietors in other services not elsewhere classified."
+  },
+  {
+    "SOC code": "2111",
+    "Job type": "Chemical scientists",
+    "Related job titles": "Analytical chemists Industrial chemists Nuclear and radiochemists Research and development chemists Chemical scientists not elsewhere classified."
+  },
+  {
+    "SOC code": "2112",
+    "Job type": "Biological scientists",
+    "Related job titles": "Agricultural scientists Biologists Botanical and horticultural scientists Microbiologists and bacteriologists Pathologists Pharmacologists Zoological scientists Biological scientists not elsewhere classified."
+  },
+  {
+    "SOC code": "2113",
+    "Job type": "Biochemists and biomedical scientists",
+    "Related job titles": "Biochemists Biomedical scientists Biotechnologists Clinical scientists Biochemists and biomedical scientists not elsewhere classified."
+  },
+  {
+    "SOC code": "2114",
+    "Job type": "Physical scientists",
+    "Related job titles": "Geologists Geophysicists Hydrogeologists and hydrologists Meteorologists Physical scientists not elsewhere classified."
+  },
+  {
+    "SOC code": "2115",
+    "Job type": "Social and humanities scientists",
+    "Related job titles": "Anthropologists Archaeologists Behavioural scientists Epidemiologists Genealogists Geographic information systems analysts Historians Political scientists Public health analysts Social and humanities scientists not elsewhere classified."
+  },
+  {
+    "SOC code": "2119",
+    "Job type": "Natural and social science professionals not elsewhere classified.",
+    "Related job titles": "Sports scientists Natural and social science professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2121",
+    "Job type": "Civil engineers",
+    "Related job titles": "Building and building services engineers Geotechnical engineers Mining engineers Structural engineers Transportation engineers Water engineers Civil engineers not elsewhere classified."
+  },
+  {
+    "SOC code": "2122",
+    "Job type": "Mechanical engineers",
+    "Related job titles": "Automotive engineers Marine engineers and naval architects Mechanical design engineers Mechanical engineers not elsewhere classified."
+  },
+  {
+    "SOC code": "2123",
+    "Job type": "Electrical engineers",
+    "Related job titles": "Laser engineers Power systems engineers Railway signalling engineers Electrical engineers not elsewhere classified."
+  },
+  {
+    "SOC code": "2124",
+    "Job type": "Electronics engineers",
+    "Related job titles": "Broadcast engineers Telecommunications engineers Electronics engineers not elsewhere classified."
+  },
+  {
+    "SOC code": "2125",
+    "Job type": "Production and process engineers",
+    "Related job titles": "Chemical engineers Control and instrumentation engineers Industrial and production engineers Production and process engineers not elsewhere classified."
+  },
+  {
+    "SOC code": "2126",
+    "Job type": "Aerospace engineers",
+    "Related job titles": "Aeronautical engineers Aircraft engineers Avionics engineers Aerospace engineers not elsewhere classified."
+  },
+  {
+    "SOC code": "2127",
+    "Job type": "Engineering project managers and project engineers",
+    "Related job titles": "Engineering project managers and project engineers"
+  },
+  {
+    "SOC code": "2129",
+    "Job type": "Engineering professionals not elsewhere classified.",
+    "Related job titles": "Acoustic engineers Biomedical engineers Brewers Clinical Engineers Energy engineers Food technologists Gas engineers Heating and ventilating engineers Materials engineers Mechatronic engineers Nuclear engineers Patent engineers Robotics engineers Traffic engineers Engineering professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2131",
+    "Job type": "IT project managers",
+    "Related job titles": "IT project managers"
+  },
+  {
+    "SOC code": "2132",
+    "Job type": "IT managers",
+    "Related job titles": "IT information managers IT product managers IT service delivery managers IT systems managers IT test managers Network managers Software development managers Technical support managers IT managers not elsewhere classified."
+  },
+  {
+    "SOC code": "2133",
+    "Job type": "IT business analysts, architects and systems designers",
+    "Related job titles": "Computer analysts and scientists Data architects Data engineers IT systems architects IT business analysts IT solutions architects and designers IT business analysts, architects and systems designers not elsewhere classified."
+  },
+  {
+    "SOC code": "2134",
+    "Job type": "Programmers and software development professionals",
+    "Related job titles": "Computer games designers Computer programmers Software developers Programmers and software development professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2135",
+    "Job type": "Cyber security professionals",
+    "Related job titles": "Cyber operational defence specialists Cyber security management and governance specialists Forensic computer specialists Secure system development specialists Cyber security professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2136",
+    "Job type": "IT quality and testing professionals",
+    "Related job titles": "IT quality and testing professionals"
+  },
+  {
+    "SOC code": "2137",
+    "Job type": "IT network professionals",
+    "Related job titles": "IT network professionals"
+  },
+  {
+    "SOC code": "2139",
+    "Job type": "Information technology professionals not elsewhere classified.",
+    "Related job titles": "DevOps engineers IT consultants Webmasters and website managers Information technology professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2141",
+    "Job type": "Web design professionals",
+    "Related job titles": "Application designers UI and UX designers and researchers Web designers Web design professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2142",
+    "Job type": "Graphic and multimedia designers",
+    "Related job titles": "Multimedia animators Graphic and multimedia designers not elsewhere classified."
+  },
+  {
+    "SOC code": "2151",
+    "Job type": "Conservation professionals",
+    "Related job titles": "Conservationists Ecologists Heritage officers Conservation professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2152",
+    "Job type": "Environment professionals",
+    "Related job titles": "Energy managers Environmental and geo-environmental engineers Environmental consultants Environmental scientists Sustainability officers Environmental professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2161",
+    "Job type": "Research and development managers",
+    "Related job titles": "Laboratory managers Research and development design managers Research and development managers not elsewhere classified."
+  },
+  {
+    "SOC code": "2162",
+    "Job type": "Other researchers, unspecified discipline",
+    "Related job titles": "Other researchers, unspecified discipline"
+  },
+  {
+    "SOC code": "2211",
+    "Job type": "Generalist medical practitioners",
+    "Related job titles": "General practitioners Public health doctors Generalist medical practitioners not elsewhere classified."
+  },
+  {
+    "SOC code": "2212",
+    "Job type": "Specialist medical practitioners",
+    "Related job titles": "Anaesthetists Cardiologists Dermatologists Gastroenterologists Gynaecologists and obstetricians Haematologists Homeopaths Neurologists Oncologists Paediatricians Psychiatrists Radiologists Rheumatologists Surgeons Specialist medical practitioners not elsewhere classified."
+  },
+  {
+    "SOC code": "2221",
+    "Job type": "Physiotherapists",
+    "Related job titles": "Physiotherapists"
+  },
+  {
+    "SOC code": "2222",
+    "Job type": "Occupational therapists",
+    "Related job titles": "Occupational therapists"
+  },
+  {
+    "SOC code": "2223",
+    "Job type": "Speech and language therapists",
+    "Related job titles": "Speech and language therapists"
+  },
+  {
+    "SOC code": "2224",
+    "Job type": "Psychotherapists and cognitive behaviour therapists",
+    "Related job titles": "Cognitive behavioural therapists Psychotherapists Psychotherapists and cognitive behaviour therapists not elsewhere classified."
+  },
+  {
+    "SOC code": "2225",
+    "Job type": "Clinical psychologists",
+    "Related job titles": "Clinical psychologists"
+  },
+  {
+    "SOC code": "2226",
+    "Job type": "Other psychologists",
+    "Related job titles": "Counselling psychologists Educational psychologists Forensic psychologists Health psychologists Occupational psychologists Research psychologists Sports psychologists Other psychologists not elsewhere classified."
+  },
+  {
+    "SOC code": "2229",
+    "Job type": "Therapy professionals not elsewhere classified.",
+    "Related job titles": "Acupuncturists Art therapists Chiropractors and osteopaths Drama therapists Music therapists Nutritionists Orthoptists Play therapists Psychological wellbeing practitioners Sports therapists Therapy professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2231",
+    "Job type": "Midwifery nurses",
+    "Related job titles": "Midwifery nurses"
+  },
+  {
+    "SOC code": "2232",
+    "Job type": "Registered community nurses",
+    "Related job titles": "Learning disability community nurses Community nurses not elsewhere classified."
+  },
+  {
+    "SOC code": "2233",
+    "Job type": "Registered specialist nurses",
+    "Related job titles": "Diabetes specialist nurses Intensive care nurses Theatre nurses Specialist nurses not elsewhere classified."
+  },
+  {
+    "SOC code": "2234",
+    "Job type": "Registered nurse practitioners",
+    "Related job titles": "Mental health nurse practitioners Nurse practitioners not elsewhere classified."
+  },
+  {
+    "SOC code": "2235",
+    "Job type": "Registered mental health nurses",
+    "Related job titles": "Registered mental health nurses"
+  },
+  {
+    "SOC code": "2236",
+    "Job type": "Registered children’s nurses",
+    "Related job titles": "Neonatal nurses Paediatric nurses School nurses"
+  },
+  {
+    "SOC code": "2237",
+    "Job type": "Other registered nursing professionals",
+    "Related job titles": "Other registered nursing professionals"
+  },
+  {
+    "SOC code": "2240",
+    "Job type": "Veterinarians",
+    "Related job titles": "Veterinarians"
+  },
+  {
+    "SOC code": "2251",
+    "Job type": "Pharmacists",
+    "Related job titles": "Pharmacists"
+  },
+  {
+    "SOC code": "2252",
+    "Job type": "Optometrists",
+    "Related job titles": "Optometrists"
+  },
+  {
+    "SOC code": "2253",
+    "Job type": "Dental practitioners",
+    "Related job titles": "Dentists and dental surgeons Endodontists Orthodontists Periodontists Dental practitioners not elsewhere classified."
+  },
+  {
+    "SOC code": "2254",
+    "Job type": "Medical radiographers",
+    "Related job titles": "Diagnostic radiographers and sonographers Therapeutic radiographers Vascular scientists Medical radiographers not elsewhere classified."
+  },
+  {
+    "SOC code": "2255",
+    "Job type": "Paramedics",
+    "Related job titles": "Paramedics"
+  },
+  {
+    "SOC code": "2256",
+    "Job type": "Podiatrists",
+    "Related job titles": "Podiatrists"
+  },
+  {
+    "SOC code": "2259",
+    "Job type": "Other health professionals not elsewhere classified.",
+    "Related job titles": "Audiologists Cardiac physiologists Dietitians Health promotion officers Medical physicists and nuclear medicine scientists Mental health workers Occupational health advisers Operating department practitioners Orthotists and prosthetists Respiratory physiologists Sexual health advisers Other health professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2311",
+    "Job type": "Higher education teaching professionals",
+    "Related job titles": "Higher education teaching professionals"
+  },
+  {
+    "SOC code": "2312",
+    "Job type": "Further education teaching professionals",
+    "Related job titles": "Further education teaching professionals"
+  },
+  {
+    "SOC code": "2313",
+    "Job type": "Secondary education teaching professionals",
+    "Related job titles": "Teachers of art Teachers of biology Teachers of chemistry Teachers of design technology Teachers of drama Teachers of economics Teachers of English Teachers of geography Teachers of history Teachers of ICT and computer science Teachers of mathematics Teachers of modern foreign languages Teachers of music Teachers of physical education Teachers of physics Teachers of psychology Teachers of religious education Teachers of science Teachers of sociology Teachers of Welsh Secondary education teaching professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2314",
+    "Job type": "Primary education teaching professionals",
+    "Related job titles": "Primary education teaching professionals"
+  },
+  {
+    "SOC code": "2315",
+    "Job type": "Nursery education teaching professionals",
+    "Related job titles": "Nursery education teaching professionals"
+  },
+  {
+    "SOC code": "2316",
+    "Job type": "Special and additional needs education teaching professionals",
+    "Related job titles": "Special and additional educational needs teachers and coordinators Teachers of the deaf Teachers of the visually impaired Special and additional needs education teaching professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2317",
+    "Job type": "Teachers of english as a foreign language",
+    "Related job titles": "Teachers of English as a Foreign Language"
+  },
+  {
+    "SOC code": "2319",
+    "Job type": "Teaching professionals not elsewhere classified.",
+    "Related job titles": "Adult education tutors Dance and drama school principals and owners Private music and singing teachers Private tutors Teaching professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2321",
+    "Job type": "Head teachers and principals",
+    "Related job titles": "Heads of further education establishments Heads of higher education establishments Heads of nursery schools Heads of primary schools Heads of secondary schools and sixth form colleges Heads of special needs education schools Head teachers and principals not elsewhere classified."
+  },
+  {
+    "SOC code": "2322",
+    "Job type": "Education managers",
+    "Related job titles": "Education managers"
+  },
+  {
+    "SOC code": "2323",
+    "Job type": "Education advisers and school inspectors",
+    "Related job titles": "Educational advisers School inspectors"
+  },
+  {
+    "SOC code": "2324",
+    "Job type": "Early education and childcare services managers",
+    "Related job titles": "Early education and childcare services managers"
+  },
+  {
+    "SOC code": "2329",
+    "Job type": "Other educational professionals not elsewhere classified",
+    "Related job titles": "Bursars Educational administrators Examiners and markers Other educational professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2411",
+    "Job type": "Barristers and judges",
+    "Related job titles": "Barristers and advocates Judges Barristers and judges not elsewhere classified."
+  },
+  {
+    "SOC code": "2412",
+    "Job type": "Solicitors and lawyers",
+    "Related job titles": "Commercial solicitors and lawyers Criminal solicitors and lawyers Family solicitors and lawyers Property solicitors and lawyers Solicitors and lawyers not elsewhere classified."
+  },
+  {
+    "SOC code": "2419",
+    "Job type": "Legal professionals not elsewhere classified.",
+    "Related job titles": "Conveyancers Litigation executives Paralegals Patent and trademark attorneys Legal professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2421",
+    "Job type": "Chartered and certified accountants",
+    "Related job titles": "Auditors Financial accountants Forensic accountants Fund accountants Insolvency practitoners Chartered and certified accountants not elsewhere classified."
+  },
+  {
+    "SOC code": "2422",
+    "Job type": "Finance and investment analysts and advisers",
+    "Related job titles": "Credit analysts Financial advisers and planners Financial analysts Mortgage advisers Finance and investment analysts and advisers not elsewhere classified."
+  },
+  {
+    "SOC code": "2423",
+    "Job type": "Taxation experts",
+    "Related job titles": "Taxation experts"
+  },
+  {
+    "SOC code": "2431",
+    "Job type": "Management consultants and business analysts",
+    "Related job titles": "Business analysts and consultants Management advisers and consultants Risk analysts Management consultants and business analysts not elsewhere classified."
+  },
+  {
+    "SOC code": "2432",
+    "Job type": "Marketing and commercial managers",
+    "Related job titles": "Commercial managers Marketing managers Marketing and commercial managers not elsewhere classified."
+  },
+  {
+    "SOC code": "2433",
+    "Job type": "Actuaries, economists and statisticians",
+    "Related job titles": "Actuaries and actuarial analysts Economists Mathematicians Statistical data scientists Statisticians Actuaries, economists and statisticians not elsewhere classified."
+  },
+  {
+    "SOC code": "2434",
+    "Job type": "Business and related research professionals",
+    "Related job titles": "Intelligence analysts Researchers in media and entertainment Business and related research professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2435",
+    "Job type": "Professional/chartered company secretaries",
+    "Related job titles": "Professional/chartered company secretaries"
+  },
+  {
+    "SOC code": "2439",
+    "Job type": "Business, research and administrative professionals not elsewhere classified.",
+    "Related job titles": "Policy officers Business, research and administrative professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2440",
+    "Job type": "Business and financial project management professionals",
+    "Related job titles": "Business change managers Clinical trials coordinators Risk managers Business and financial project management professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2451",
+    "Job type": "Architects",
+    "Related job titles": "Architects Landscape architects and designers"
+  },
+  {
+    "SOC code": "2452",
+    "Job type": "Chartered architectural technologists, planning officers and consultants",
+    "Related job titles": "Chartered architectural technologists Town planning officers Urban designers Chartered architectural technologists, planning officers and consultants not elsewhere classified."
+  },
+  {
+    "SOC code": "2453",
+    "Job type": "Quantity surveyors",
+    "Related job titles": "Quantity surveyors"
+  },
+  {
+    "SOC code": "2454",
+    "Job type": "Chartered surveyors",
+    "Related job titles": "Building control surveyors Hydrographic surveyors Land surveyors Property surveyors Chartered surveyors not elsewhere classified."
+  },
+  {
+    "SOC code": "2455",
+    "Job type": "Construction project managers and related professionals",
+    "Related job titles": "Construction project and contract managers Transport planners Construction project managers and related professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2461",
+    "Job type": "Social workers",
+    "Related job titles": "Adult social workers Children, family and school social workers Criminal justice social workers Mental health and healthcare social workers Social workers not elsewhere classified."
+  },
+  {
+    "SOC code": "2462",
+    "Job type": "Probation officers",
+    "Related job titles": "Probation officers"
+  },
+  {
+    "SOC code": "2463",
+    "Job type": "Clergy",
+    "Related job titles": "Clergy"
+  },
+  {
+    "SOC code": "2464",
+    "Job type": "Youth work professionals",
+    "Related job titles": "Youth work professionals"
+  },
+  {
+    "SOC code": "2469",
+    "Job type": "Welfare professionals not elsewhere classified.",
+    "Related job titles": "Adoption officers Children and family services professionals Mediators and restorative practice professionals Welfare professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2471",
+    "Job type": "Librarians",
+    "Related job titles": "Librarians"
+  },
+  {
+    "SOC code": "2472",
+    "Job type": "Archivists, conservators and curators",
+    "Related job titles": "Archivists Collection managers and curators Conservators Museum education officers Archivists and curators not elsewhere classified."
+  },
+  {
+    "SOC code": "2481",
+    "Job type": "Quality control and planning engineers",
+    "Related job titles": "Garment technologists Planning engineers Quality control engineers Quality control and planning engineers not elsewhere classified."
+  },
+  {
+    "SOC code": "2482",
+    "Job type": "Quality assurance and regulatory professionals",
+    "Related job titles": "Compliance and regulatory professionals Quality assurance professionals"
+  },
+  {
+    "SOC code": "2483",
+    "Job type": "Environmental health professionals",
+    "Related job titles": "Environmental health professionals"
+  },
+  {
+    "SOC code": "2491",
+    "Job type": "Newspaper, periodical and broadcast editors",
+    "Related job titles": "Newspaper, periodical and broadcast editors"
+  },
+  {
+    "SOC code": "2492",
+    "Job type": "Newspaper and periodical broadcast journalists and reporters",
+    "Related job titles": "Broadcast journalists Newspaper journalists and reporters Newspaper and periodical journalists and reporters not elsewhere classified."
+  },
+  {
+    "SOC code": "2493",
+    "Job type": "Public relations professionals",
+    "Related job titles": "Press officers Public relations officers Social media managers Public relations professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "2494",
+    "Job type": "Advertising accounts managers and creative directors",
+    "Related job titles": "Advertising account managers Creative directors Fundraising managers"
+  },
+  {
+    "SOC code": "3111",
+    "Job type": "Laboratory technicians",
+    "Related job titles": "Biological laboratory technicians Chemical laboratory technicians Health physics monitors Laboratory food technicians Medical laboratory technicians Laboratory technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3112",
+    "Job type": "Electrical and electronics technicians",
+    "Related job titles": "Avionics technicians Electrical and electronics technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3113",
+    "Job type": "Engineering technicians",
+    "Related job titles": "Aerospace technicians Wind turbine technicians Engineering technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3114",
+    "Job type": "Building and civil engineering technicians",
+    "Related job titles": "Building technicians Civil engineering technicians Surveying technicians Building and civil engineering technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3115",
+    "Job type": "Quality assurance technicians",
+    "Related job titles": "Quality assurance technicians"
+  },
+  {
+    "SOC code": "3116",
+    "Job type": "Planning, process and production technicians",
+    "Related job titles": "Planning, process and production technicians"
+  },
+  {
+    "SOC code": "3119",
+    "Job type": "Science, engineering and production technicians not elsewhere classified.",
+    "Related job titles": "School technicians Textile consultants Science, engineering and production technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3120",
+    "Job type": "CAD, drawing and architectural technicians",
+    "Related job titles": "Architectural technicians BIM and CAD technicians Cartographers CAD, drawing and architectural technicians not elsewhere classified"
+  },
+  {
+    "SOC code": "3131",
+    "Job type": "IT operations technicians",
+    "Related job titles": "Games testers Network and systems administrators Quality assurance testers Software technicians IT operations technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3132",
+    "Job type": "IT user support technicians",
+    "Related job titles": "IT user support technicians"
+  },
+  {
+    "SOC code": "3133",
+    "Job type": "Database administrators and web content technicians",
+    "Related job titles": "Database administrators Web content technicians Database administrators and web content technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3211",
+    "Job type": "Dispensing opticians",
+    "Related job titles": "Dispensing opticians"
+  },
+  {
+    "SOC code": "3212",
+    "Job type": "Pharmaceutical technicians",
+    "Related job titles": "Pharmaceutical technicians"
+  },
+  {
+    "SOC code": "3213",
+    "Job type": "Medical and dental technicians",
+    "Related job titles": "Cardiac technicians Dental hygienists Dental technicians Hearing aid dispensers Hearing screeners Nursing associates Orthotic and prosthetic technicians Medical and dental technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3214",
+    "Job type": "Complementary health associate professionals",
+    "Related job titles": "Alexander technique teachers Aromatherapists Homeopaths Hospital play specialists Hypnotherapists Massage therapists Reflexologists Reiki healers Complementary health associate professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "3219",
+    "Job type": "Health associate professionals not elsewhere classified.",
+    "Related job titles": "Antenatal teachers Dietetic assistants Equine dentists Foot health practitioners Health trainers Home economists Health associate professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "3221",
+    "Job type": "Youth and community workers",
+    "Related job titles": "Community workers Family support workers Youth workers Youth and community workers not elsewhere classified."
+  },
+  {
+    "SOC code": "3222",
+    "Job type": "Child and early years officers",
+    "Related job titles": "Child protection officers Learning and behaviour mentors Welfare and attendance officers Child and early years officers not elsewhere classified."
+  },
+  {
+    "SOC code": "3223",
+    "Job type": "Housing officers",
+    "Related job titles": "Housing officers"
+  },
+  {
+    "SOC code": "3224",
+    "Job type": "Counsellors",
+    "Related job titles": "Bereavement counsellors Debt advisers Life coaches Relationship counsellors Substance misuse workers Counsellors not elsewhere classified."
+  },
+  {
+    "SOC code": "3229",
+    "Job type": "Welfare and housing associate professionals not elsewhere classified.",
+    "Related job titles": "Advocates Celebrants Charity workers Day care officers Health advisers Homelessness and housing advice support workers Mental health project workers Probation service workers Student support workers Victim support workers Welfare and housing associate professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "3231",
+    "Job type": "Higher level teaching assistants",
+    "Related job titles": "Higher level teaching assistants"
+  },
+  {
+    "SOC code": "3232",
+    "Job type": "Early education and childcare practitioners",
+    "Related job titles": "Early education and childcare practitioners"
+  },
+  {
+    "SOC code": "3240",
+    "Job type": "Veterinary nurses",
+    "Related job titles": "Veterinary nurses"
+  },
+  {
+    "SOC code": "3311",
+    "Job type": "Non-commissioned officers and other ranks",
+    "Related job titles": "Non-commissioned Army officers and others ranks Non-commissioned Royal Air Force officers and other ranks Non-commissioned Royal Navy officers and other ranks Royal Marines Commandos Non-commissioned officers and other ranks not elsewhere classified."
+  },
+  {
+    "SOC code": "3312",
+    "Job type": "Police officers",
+    "Related job titles": "Police constable Police sergeant Police officers not elsewhere classified."
+  },
+  {
+    "SOC code": "3313",
+    "Job type": "Fire service officers",
+    "Related job titles": "Firefighters Fire service crew managers Watch managers Fire service officers not elsewhere classified."
+  },
+  {
+    "SOC code": "3314",
+    "Job type": "Prison service officers",
+    "Related job titles": "Operational support grades Prison officers Prison service officers not elsewhere classified."
+  },
+  {
+    "SOC code": "3319",
+    "Job type": "Protective service associate professionals not elsewhere classified.",
+    "Related job titles": "Coastguard Customs and border control officers Fraud investigators Immigration officers Private investigators Security consultants and managers Protective service associate professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "3411",
+    "Job type": "Artists",
+    "Related job titles": "Art technicians Drawing and painting artists Hand drawn animators Illustrators Medical and scientific illustrators Picture restorers Sculptors Tattoo and henna artists Artists not elsewhere classified."
+  },
+  {
+    "SOC code": "3412",
+    "Job type": "Authors, writers and translators",
+    "Related job titles": "Authors Bloggers Copywriters Literary editors Poets Script writers Technical writers Translators and interpreters Authors, writers and translators not elsewhere classified."
+  },
+  {
+    "SOC code": "3413",
+    "Job type": "Actors, entertainers and presenters",
+    "Related job titles": "Actors Broadcasters, podcasters and presenters Children’s entertainers Comedians Disc jockeys Magicians Models Singers Social media influencers Actors, entertainers and presenters not elsewhere classified."
+  },
+  {
+    "SOC code": "3414",
+    "Job type": "Dancers and choreographers",
+    "Related job titles": "Choreographers Dance teachers Dancers"
+  },
+  {
+    "SOC code": "3415",
+    "Job type": "Musicians",
+    "Related job titles": "Composers and musical arrangers Music conductors Instrumentalists Musicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3416",
+    "Job type": "Arts officers, producers and directors",
+    "Related job titles": "Art consultants Broadcasting and entertainment directors Broadcasting and entertainment editors Broadcasting and entertainment producers Studio and stage managers Arts officers, producers and directors not elsewhere classified."
+  },
+  {
+    "SOC code": "3417",
+    "Job type": "Photographers, audio-visual and broadcasting equipment operators",
+    "Related job titles": "Camera operators and videographers Lighting designers Photographers Sound designers Sound engineers Theatre technicians Photographers, audio-visual and broadcasting equipment operators not elsewhere classified."
+  },
+  {
+    "SOC code": "3421",
+    "Job type": "Interior designers",
+    "Related job titles": "Interior designers"
+  },
+  {
+    "SOC code": "3422",
+    "Job type": "Clothing, fashion and accessories designers",
+    "Related job titles": "Clothing and fashion consultants Clothing and fashion designers Footwear designers Jewellery designers Textile designers Clothing, fashion and accessories designers not elsewhere classified."
+  },
+  {
+    "SOC code": "3429",
+    "Job type": "Design occupations not elsewhere classified.",
+    "Related job titles": "Industrial and product designers Packaging designers Performance make-up artists Set designers Visual merchandising managers and designers Design occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "3431",
+    "Job type": "Sports players",
+    "Related job titles": "Sports players"
+  },
+  {
+    "SOC code": "3432",
+    "Job type": "Sports coaches, instructors and officials",
+    "Related job titles": "Basketball coaches Cricket coaches Football coaches Forest school practitioners Golf coaches Gymnastics coaches Horse riding instructors Martial arts instructors Outdoor pursuits instructors Referees, umpires and other sports officials Rugby coaches Sailing instructors Ski instructors Sports development officers Swimming coaches Tennis coaches Sports coaches, instructors and officials not elsewhere classified."
+  },
+  {
+    "SOC code": "3433",
+    "Job type": "Fitness and wellbeing instructors",
+    "Related job titles": "Group fitness instructors and personal trainers Pilates teachers Yoga teachers Fitness and wellbeing instructors not elsewhere classified."
+  },
+  {
+    "SOC code": "3511",
+    "Job type": "Aircraft pilots and air traffic controllers",
+    "Related job titles": "Airline pilots Air traffic controllers Flying instructors Helicopter pilots Aircraft pilots and air traffic controllers not elsewhere classified."
+  },
+  {
+    "SOC code": "3512",
+    "Job type": "Ship and hovercraft officers",
+    "Related job titles": "Ship and hovercraft captains and deck officers Marine engineers Ship and hovercraft officers not elsewhere classified."
+  },
+  {
+    "SOC code": "3520",
+    "Job type": "Legal associate professionals",
+    "Related job titles": "Conveyancing professionals Cost lawyers Barrister’s and judge’s clerks Litigation officers Probate managers Will writers Legal associate professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "3531",
+    "Job type": "Brokers",
+    "Related job titles": "Commodity brokers and traders Insurance and mortgage brokers Shipbrokers Stockbrokers Brokers not elsewhere classified."
+  },
+  {
+    "SOC code": "3532",
+    "Job type": "Insurance underwriters",
+    "Related job titles": "Insurance underwriters"
+  },
+  {
+    "SOC code": "3533",
+    "Job type": "Financial and accounting technicians",
+    "Related job titles": "Accounting technicians Financial control technicians Financial and accounting technicians not elsewhere classified."
+  },
+  {
+    "SOC code": "3534",
+    "Job type": "Financial accounts managers",
+    "Related job titles": "Claims managers Credit managers Investment managers Relationship managers Financial accounts managers not elsewhere classified."
+  },
+  {
+    "SOC code": "3541",
+    "Job type": "Estimators, valuers and assessors",
+    "Related job titles": "Energy advisers and assessors Estimators Loss adjusters Valuers Vehicle damage assessors Estimators, valuers and assessors not elsewhere classified."
+  },
+  {
+    "SOC code": "3542",
+    "Job type": "Importers and exporters",
+    "Related job titles": "Importers and exporters"
+  },
+  {
+    "SOC code": "3543",
+    "Job type": "Project support officers",
+    "Related job titles": "Project support officers"
+  },
+  {
+    "SOC code": "3544",
+    "Job type": "Data analysts",
+    "Related job titles": "Data analysts"
+  },
+  {
+    "SOC code": "3549",
+    "Job type": "Business associate professionals not elsewhere classified.",
+    "Related job titles": "Business support officers Business systems analysts Contract administrators Clinical coders Clinical trials administrators Research coordinators Business associate professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "3551",
+    "Job type": "Buyers and procurement officers",
+    "Related job titles": "Buyers and procurement officers"
+  },
+  {
+    "SOC code": "3552",
+    "Job type": "Business sales executives",
+    "Related job titles": "Business sales executives"
+  },
+  {
+    "SOC code": "3553",
+    "Job type": "Merchandisers",
+    "Related job titles": "Merchandisers"
+  },
+  {
+    "SOC code": "3554",
+    "Job type": "Advertising and marketing associate professionals",
+    "Related job titles": "Advertising and marketing executives Fundraisers Market researchers Marketing associate professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "3555",
+    "Job type": "Estate agents and auctioneers",
+    "Related job titles": "Estate agents Land and property auctioneers and valuers Letting agents Estate agents and auctioneers not elsewhere classified"
+  },
+  {
+    "SOC code": "3556",
+    "Job type": "Sales accounts and business development managers",
+    "Related job titles": "Brand managers Business development managers Sales account managers Sales accounts and business development managers not elsewhere classified."
+  },
+  {
+    "SOC code": "3557",
+    "Job type": "Events managers and organisers",
+    "Related job titles": "Conference managers and organisers Exhibition managers and organisers Festival managers and organisers Hospitality managers Wedding planners and organisers Event managers and organisers not elsewhere classified."
+  },
+  {
+    "SOC code": "3560",
+    "Job type": "Public services associate professionals",
+    "Related job titles": "Electoral services officers Health service administrators Job Centre officers Waste management officers Public services associate professionals not elsewhere classified."
+  },
+  {
+    "SOC code": "3571",
+    "Job type": "Human resources and industrial relations officers",
+    "Related job titles": "Equality and diversity officers Human resources advisers Recruitment consultants Human resources and industrial relations officers not elsewhere classified."
+  },
+  {
+    "SOC code": "3572",
+    "Job type": "Careers advisers and vocational guidance specialists",
+    "Related job titles": "Careers advisers and coaches Work placement officers Careers advisers and vocational guidance specialists not elsewhere classified."
+  },
+  {
+    "SOC code": "3573",
+    "Job type": "Information technology trainers",
+    "Related job titles": "Information technology trainers"
+  },
+  {
+    "SOC code": "3574",
+    "Job type": "Other vocational and industrial trainers",
+    "Related job titles": "Business coaches Retail and store trainers Training assessors Other vocational and industrial trainers not elsewhere classified."
+  },
+  {
+    "SOC code": "3581",
+    "Job type": "Inspectors of standards and regulations",
+    "Related job titles": "Animal health inspectors and officers Building control officers Driving examiners Health and safety inspectors Housing and planning inspectors Licensing officers Meat hygiene inspectors Nuclear safety inspectors Trading standards officers Traffic and vehicle examiners and inspectors Inspectors of standards and regulations not elsewhere classified."
+  },
+  {
+    "SOC code": "3582",
+    "Job type": "Health and safety managers and officers",
+    "Related job titles": "Asbestos safety officers Fire safety managers and officers Occupational health and safety managers and officers Road traffic and transport safety officers Occupational hygienists Health and safety managers and officers not elsewhere classified."
+  },
+  {
+    "SOC code": "4111",
+    "Job type": "National government administrative occupations",
+    "Related job titles": "National government benefits officers National government revenue officers Passport officers National government administrative occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "4112",
+    "Job type": "Local government administrative occupations",
+    "Related job titles": "Local government benefits officers Local government housing assistants Local government revenue officers Parish clerks Local government administrative occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "4113",
+    "Job type": "Officers of non-governmental organisations",
+    "Related job titles": "Charity administrators Clerks to governors Union officials Officers of non-governmental organisations not elsewhere classified."
+  },
+  {
+    "SOC code": "4121",
+    "Job type": "Credit controllers",
+    "Related job titles": "Credit controllers"
+  },
+  {
+    "SOC code": "4122",
+    "Job type": "Book-keepers, payroll managers and wages clerks",
+    "Related job titles": "Accounting clerks and bookkeepers Payroll officers and wages clerks Bookkeepers, payroll managers and wage clerks not elsewhere classified."
+  },
+  {
+    "SOC code": "4123",
+    "Job type": "Bank and post office clerks",
+    "Related job titles": "Bank and building society clerks Post office clerks Bank and post office clerks not elsewhere classified."
+  },
+  {
+    "SOC code": "4124",
+    "Job type": "Finance officers",
+    "Related job titles": "Finance officers"
+  },
+  {
+    "SOC code": "4129",
+    "Job type": "Financial administrative occupations not elsewhere classified.",
+    "Related job titles": "Box office assistants Grants officers Mortgage administrators Revenue assistants Treasury assistants Finance administrative occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "4131",
+    "Job type": "Records clerks and assistants",
+    "Related job titles": "Admissions officers Court officers Enumerators Examinations officers Indexers Medical administrators and appointment clerks Purchasing administrators Records clerks and assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "4132",
+    "Job type": "Pensions and insurance clerks and assistants",
+    "Related job titles": "Claims handlers Insurance administrators Pensions administrators Pensions and insurance clerks and assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "4133",
+    "Job type": "Stock control clerks and assistants",
+    "Related job titles": "Stock control clerks and assistants"
+  },
+  {
+    "SOC code": "4134",
+    "Job type": "Transport and distribution clerks and assistants",
+    "Related job titles": "Transport and distribution clerks and assistants"
+  },
+  {
+    "SOC code": "4135",
+    "Job type": "Library clerks and assistants",
+    "Related job titles": "Library clerks and assistants"
+  },
+  {
+    "SOC code": "4136",
+    "Job type": "Human resources administrative occupations",
+    "Related job titles": "Recruitment administrators Training administrators Human resources administrative occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "4141",
+    "Job type": "Office managers",
+    "Related job titles": "Office managers"
+  },
+  {
+    "SOC code": "4142",
+    "Job type": "Office supervisors",
+    "Related job titles": "Office supervisors"
+  },
+  {
+    "SOC code": "4143",
+    "Job type": "Customer service managers",
+    "Related job titles": "Call centre managers Customer service managers not elsewhere classified."
+  },
+  {
+    "SOC code": "4151",
+    "Job type": "Sales administrators",
+    "Related job titles": "Sales administrators"
+  },
+  {
+    "SOC code": "4152",
+    "Job type": "Data entry administrators",
+    "Related job titles": "Data entry administrators"
+  },
+  {
+    "SOC code": "4159",
+    "Job type": "Other administrative occupations not elsewhere classified.",
+    "Related job titles": "Business administrators Church administrators Facilities coordinators Proofreaders Property administrators Warranty administrators Other administrative occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "4211",
+    "Job type": "Medical secretaries",
+    "Related job titles": "Medical secretaries"
+  },
+  {
+    "SOC code": "4212",
+    "Job type": "Legal secretaries",
+    "Related job titles": "Legal secretaries"
+  },
+  {
+    "SOC code": "4213",
+    "Job type": "School secretaries",
+    "Related job titles": "School secretaries"
+  },
+  {
+    "SOC code": "4214",
+    "Job type": "Company secretaries and administrators",
+    "Related job titles": "Company secretaries and administrators"
+  },
+  {
+    "SOC code": "4215",
+    "Job type": "Personal assistants and other secretaries",
+    "Related job titles": "Farm secretaries Personal assistants Personal assistants and other secretaries not elsewhere classified."
+  },
+  {
+    "SOC code": "4216",
+    "Job type": "Receptionists",
+    "Related job titles": "Receptionists"
+  },
+  {
+    "SOC code": "4217",
+    "Job type": "Typists and related keyboard occupations",
+    "Related job titles": "Stenographers Transcribers Typists Typists and related keyboard occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "5111",
+    "Job type": "Farmers",
+    "Related job titles": "Agricultural contractors Aquaculture farmers Arable farmers Dairy farmers Livestock farmers Poultry farmers Farmers not elsewhere classified."
+  },
+  {
+    "SOC code": "5112",
+    "Job type": "Horticultural trades",
+    "Related job titles": "Horticultural trades"
+  },
+  {
+    "SOC code": "5113",
+    "Job type": "Gardeners and landscape gardeners",
+    "Related job titles": "Garden designers Gardeners Green roof installers Landscape gardeners Gardeners and landscape gardeners not elsewhere classified."
+  },
+  {
+    "SOC code": "5114",
+    "Job type": "Groundsmen and greenkeepers",
+    "Related job titles": "Groundsmen and greenkeepers"
+  },
+  {
+    "SOC code": "5119",
+    "Job type": "Agricultural and fishing trades not elsewhere classified.",
+    "Related job titles": "Arborists Beekeepers Countryside and park officers and rangers Falconers Fish and river keepers Fishers Gamekeepers Agricultural and fishing trades not elsewhere classified."
+  },
+  {
+    "SOC code": "5211",
+    "Job type": "Sheet metal workers",
+    "Related job titles": "Metal fabricators and finishers Panel beaters Whitesmiths Sheet metal workers not elsewhere classified."
+  },
+  {
+    "SOC code": "5212",
+    "Job type": "Metal plate workers, smiths, moulders and related occupations",
+    "Related job titles": "Die casters Farriers Moulders, mould makers and core makers Smiths Metal plate workers, smiths, moulders and related occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "5213",
+    "Job type": "Welding trades",
+    "Related job titles": "Braziers and solderers Pipe welders Plate welders Welding trades not elsewhere classified."
+  },
+  {
+    "SOC code": "5214",
+    "Job type": "Pipe fitters",
+    "Related job titles": "Pipe fitters"
+  },
+  {
+    "SOC code": "5221",
+    "Job type": "Metal machining setters and setter-operators",
+    "Related job titles": "Computer numerical control machine setters and setter-operators Metal machining setters and setter-operators not elsewhere classified."
+  },
+  {
+    "SOC code": "5222",
+    "Job type": "Tool makers, tool fitters and markers-out",
+    "Related job titles": "Tool fitters Tool makers Tool makers, tool fitters and markers-out not elsewhere classified."
+  },
+  {
+    "SOC code": "5223",
+    "Job type": "Metal working production and maintenance fitters",
+    "Related job titles": "Automation maintenance technicians Bicycle mechanics Catering equipment technicians Door fitters and makers Gunsmiths Heavy plant maintenance technicians Hydraulic technicians Lift technicians Locksmiths Pump technicians Textile machine technicians Turbine fitters Metal working production and maintenance fitters not elsewhere classified."
+  },
+  {
+    "SOC code": "5224",
+    "Job type": "Precision instrument makers and repairers",
+    "Related job titles": "Calibration and precision instrument technicians Camera and photographic equipment technicians Horologists, watch makers and repairers Optical technicians Precision instrument makers and repairers not elsewhere classified."
+  },
+  {
+    "SOC code": "5225",
+    "Job type": "Air-conditioning and refrigeration installers and repairers",
+    "Related job titles": "Air-conditioning and refrigeration installers and repairers"
+  },
+  {
+    "SOC code": "5231",
+    "Job type": "Vehicle technicians, mechanics and electricians",
+    "Related job titles": "Auto electricians Car/light vehicle technicians Heavy and large vehicle technicians Motorcycle technicians Motorsport technicians MOT testers Roadside assistance technicians Vehicle technicians, mechanics and electricians not elsewhere classified."
+  },
+  {
+    "SOC code": "5232",
+    "Job type": "Vehicle body builders and repairers",
+    "Related job titles": "Vehicle body builders and repairers"
+  },
+  {
+    "SOC code": "5233",
+    "Job type": "Vehicle paint technicians",
+    "Related job titles": "Vehicle paint technicians"
+  },
+  {
+    "SOC code": "5234",
+    "Job type": "Aircraft maintenance and related trades",
+    "Related job titles": "Aircraft maintenance and related trades"
+  },
+  {
+    "SOC code": "5235",
+    "Job type": "Boat and ship builders and repairers",
+    "Related job titles": "Boat and ship builders and repairers"
+  },
+  {
+    "SOC code": "5236",
+    "Job type": "Rail and rolling stock builders and repairers",
+    "Related job titles": "Rail and rolling stock builders and repairers"
+  },
+  {
+    "SOC code": "5241",
+    "Job type": "Electricians and electrical fitters",
+    "Related job titles": "Electric vehicle charging point installers Electro-mechanical technicians Installation and maintenance electricians Smart energy experts Solar panel installers Street lighting electrician Electricians and electrical fitters not elsewhere classified."
+  },
+  {
+    "SOC code": "5242",
+    "Job type": "Telecoms and related network installers and repairers",
+    "Related job titles": "Telecoms and related network installers and repairers"
+  },
+  {
+    "SOC code": "5243",
+    "Job type": "Tv, video and audio servicers and repairers",
+    "Related job titles": "TV, video and audio servicers and repairers"
+  },
+  {
+    "SOC code": "5244",
+    "Job type": "Computer system and equipment installers and servicers",
+    "Related job titles": "Computer system and equipment installers and servicers"
+  },
+  {
+    "SOC code": "5245",
+    "Job type": "Security system installers and repairers",
+    "Related job titles": "Security system installers and repairers"
+  },
+  {
+    "SOC code": "5246",
+    "Job type": "Electrical service and maintenance mechanics and repairers",
+    "Related job titles": "Electrical service and maintenance mechanics and repairers"
+  },
+  {
+    "SOC code": "5249",
+    "Job type": "Electrical and electronic trades not elsewhere classified.",
+    "Related job titles": "Broadcast and communications technicians Overhead line workers Signal workers Electrical and electronic trades not elsewhere classified."
+  },
+  {
+    "SOC code": "5250",
+    "Job type": "Skilled metal, electrical and electronic trades supervisors",
+    "Related job titles": "Skilled metal, electrical and electronic trades supervisors"
+  },
+  {
+    "SOC code": "5311",
+    "Job type": "Steel erectors",
+    "Related job titles": "Steel erectors"
+  },
+  {
+    "SOC code": "5312",
+    "Job type": "Stonemasons and related trades",
+    "Related job titles": "Dry stone wallers Monumental masons Stonemasons Stonemasons and related trades not elsewhere classified."
+  },
+  {
+    "SOC code": "5313",
+    "Job type": "Bricklayers",
+    "Related job titles": "Bricklayers"
+  },
+  {
+    "SOC code": "5314",
+    "Job type": "Roofers, roof tilers and slaters",
+    "Related job titles": "Felt and flat roofers Sheeters and cladders Thatchers Tilers and slaters Roofers, roof tilers and slaters not elsewhere classified."
+  },
+  {
+    "SOC code": "5315",
+    "Job type": "Plumbers and heating and ventilating installers and repairers",
+    "Related job titles": "Plumbers and heating and ventilation installers and repairers"
+  },
+  {
+    "SOC code": "5316",
+    "Job type": "Carpenters and joiners",
+    "Related job titles": "Bedroom and kitchen fitters Carpenters Joiners Carpenters and joiners not elsewhere classified."
+  },
+  {
+    "SOC code": "5317",
+    "Job type": "Glaziers, window fabricators and fitters",
+    "Related job titles": "Glass cutters and glaziers Window fabricators Window fitters Glaziers, window fabricators and fitters not elsewhere classified."
+  },
+  {
+    "SOC code": "5319",
+    "Job type": "Construction and building trades not elsewhere classified.",
+    "Related job titles": "Builders Divers Fence erectors Industrial climbers Remotely Operated Vehicle operators Steel fixers and underpinners Construction and building trades not elsewhere classified."
+  },
+  {
+    "SOC code": "5321",
+    "Job type": "Plasterers",
+    "Related job titles": "Dry liners Plasterers"
+  },
+  {
+    "SOC code": "5322",
+    "Job type": "Floorers and wall tilers",
+    "Related job titles": "Carpet and linoleum fitters Floor layers Tilers Floorers and wall tilers not elsewhere classified."
+  },
+  {
+    "SOC code": "5323",
+    "Job type": "Painters and decorators",
+    "Related job titles": "Painters and decorators"
+  },
+  {
+    "SOC code": "5330",
+    "Job type": "Construction and building trades supervisors",
+    "Related job titles": "Carpenter and joinery supervisors Demolition supervisors Painting supervisors Plumbing supervisors Road construction supervisors Roofing supervisors Scaffolding supervisors Construction and building trade supervisors not elsewhere classified."
+  },
+  {
+    "SOC code": "5411",
+    "Job type": "Upholsterers",
+    "Related job titles": "Curtain makers Trimmers and upholsterers Upholsterers not elsewhere classified."
+  },
+  {
+    "SOC code": "5412",
+    "Job type": "Footwear and leather working trades",
+    "Related job titles": "Footwear makers and repairers Leather workers Footwear and leather working trades not elsewhere classified."
+  },
+  {
+    "SOC code": "5413",
+    "Job type": "Tailors and dressmakers",
+    "Related job titles": "Costume makers Dressmakers Fitters and alterations assistants Kilt makers Milliners Tailors Tailors and dressmakers not elsewhere classified."
+  },
+  {
+    "SOC code": "5419",
+    "Job type": "Textiles, garments and related trades not elsewhere classified.",
+    "Related job titles": "Embroiderers and sewers Knitters Sail makers Weavers Textiles, garments and related trades not elsewhere classified."
+  },
+  {
+    "SOC code": "5421",
+    "Job type": "Pre-press technicians",
+    "Related job titles": "Pre-press technicians"
+  },
+  {
+    "SOC code": "5422",
+    "Job type": "Printers",
+    "Related job titles": "Digital printers Flexographic printers Lithographic printers Screen printers Printers not elsewhere classified."
+  },
+  {
+    "SOC code": "5423",
+    "Job type": "Print finishing and binding workers",
+    "Related job titles": "Print finishing and binding workers"
+  },
+  {
+    "SOC code": "5431",
+    "Job type": "Butchers",
+    "Related job titles": "Butchers Slaughterers"
+  },
+  {
+    "SOC code": "5432",
+    "Job type": "Bakers and flour confectioners",
+    "Related job titles": "Bakers Cake decorators and designers Bakers and flour confectioners not elsewhere classified."
+  },
+  {
+    "SOC code": "5433",
+    "Job type": "Fishmongers and poultry dressers",
+    "Related job titles": "Fishmongers Poultry dressers Fishmongers and poultry dressers not elsewhere classified."
+  },
+  {
+    "SOC code": "5434",
+    "Job type": "Chefs",
+    "Related job titles": "Chefs"
+  },
+  {
+    "SOC code": "5435",
+    "Job type": "Cooks",
+    "Related job titles": "Cooks"
+  },
+  {
+    "SOC code": "5436",
+    "Job type": "Catering and bar managers",
+    "Related job titles": "Catering and bar managers"
+  },
+  {
+    "SOC code": "5441",
+    "Job type": "Glass and ceramics makers, decorators and finishers",
+    "Related job titles": "Ceramic makers, decorators and finishers Ceramic potters Glass blowers Glass makers, decorators and finishers Optical glass makers Glass and ceramics makers, decorators and finishers not elsewhere classified."
+  },
+  {
+    "SOC code": "5442",
+    "Job type": "Furniture makers and other craft woodworkers",
+    "Related job titles": "Cabinet makers Furniture makers and fitters Furniture restorers Furniture sprayers and finishers Picture framers Shed makers Furniture makers and other craft woodworkers not elsewhere classified."
+  },
+  {
+    "SOC code": "5443",
+    "Job type": "Florists",
+    "Related job titles": "Florists"
+  },
+  {
+    "SOC code": "5449",
+    "Job type": "Other skilled trades not elsewhere classified.",
+    "Related job titles": "Basket makers Candle makers Goldsmiths, silversmiths, jewellers and precious stone workers Hairpiece and wig makers Metal engravers Craft model makers Musical instrument repairers, makers and tuners Sign makers and writers Toy makers and repairers Other skilled trades not elsewhere classified."
+  },
+  {
+    "SOC code": "6111",
+    "Job type": "Early education and childcare assistants",
+    "Related job titles": "Early education and childcare assistants"
+  },
+  {
+    "SOC code": "6112",
+    "Job type": "Teaching assistants",
+    "Related job titles": "Cover supervisors School teaching assistants Teaching assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "6113",
+    "Job type": "Educational support assistants",
+    "Related job titles": "Behaviour support assistants Communication support assistants Learning support assistants Educational support assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "6114",
+    "Job type": "Childminders",
+    "Related job titles": "Childminders"
+  },
+  {
+    "SOC code": "6116",
+    "Job type": "Nannies and au pairs",
+    "Related job titles": "Au pairs Nannies"
+  },
+  {
+    "SOC code": "6117",
+    "Job type": "Playworkers",
+    "Related job titles": "Playworkers"
+  },
+  {
+    "SOC code": "6121",
+    "Job type": "Pest control officers",
+    "Related job titles": "Fumigators Mole catchers Rodent control officers Pest control officers not elsewhere classified."
+  },
+  {
+    "SOC code": "6129",
+    "Job type": "Animal care services occupations not elsewhere classified",
+    "Related job titles": "Animal boarding assistants Animal breeders Animal groomers Animal trainers Animal walkers Animal welfare workers Stable workers Veterinary assistants Zookeepers Animal care services occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "6131",
+    "Job type": "Nursing auxiliaries and assistants",
+    "Related job titles": "Blood donor carers and phlebotomists First aid trainers Maternity care assistants Occupational therapy assistants Physiotherapy assistants Radiography assistants Speech and language therapy assistants Sterile services assistants Theatre assistants Nursing auxiliaries and assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "6132",
+    "Job type": "Ambulance staff",
+    "Related job titles": "Ambulance staff"
+  },
+  {
+    "SOC code": "6133",
+    "Job type": "Dental nurses",
+    "Related job titles": "Dental nurses"
+  },
+  {
+    "SOC code": "6134",
+    "Job type": "Houseparents and residential wardens",
+    "Related job titles": "Foster carers Residential childcare practitioners School matrons and houseparents Residential housing wardens Houseparents and residential wardens not elsewhere classified."
+  },
+  {
+    "SOC code": "6135",
+    "Job type": "Care workers and home carers",
+    "Related job titles": "Community support workers Home care workers Residential care workers Care workers and home carers not elsewhere classified."
+  },
+  {
+    "SOC code": "6136",
+    "Job type": "Senior care workers",
+    "Related job titles": "Senior community support workers Senior home care workers Senior residential care workers Senior care workers not elsewhere classified."
+  },
+  {
+    "SOC code": "6137",
+    "Job type": "Care escorts",
+    "Related job titles": "Care escorts"
+  },
+  {
+    "SOC code": "6138",
+    "Job type": "Undertakers, mortuary and crematorium assistants",
+    "Related job titles": "Crematorium assistants Driver-bearers Embalmers Funeral directors and undertakers Taxidermists Undertakers, mortuary and crematorium assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "6211",
+    "Job type": "Sports and leisure assistants",
+    "Related job titles": "Bookmakers Croupiers Film and television runners Leisure and recreation assistants Lifeguards Museum and heritage assistants Sports and leisure assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "6212",
+    "Job type": "Travel agents",
+    "Related job titles": "Travel agents"
+  },
+  {
+    "SOC code": "6213",
+    "Job type": "Air travel assistants",
+    "Related job titles": "Flight attendants Passenger services assistants Air travel assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "6214",
+    "Job type": "Rail travel assistants",
+    "Related job titles": "Railway station assistants Revenue protection officers Train conductors and guards Rail travel assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "6219",
+    "Job type": "Leisure and travel service occupations not elsewhere classified.",
+    "Related job titles": "Holiday representatives Ship stewards Tour guides Tourist information assistants Leisure and travel service occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "6221",
+    "Job type": "Hairdressers and barbers",
+    "Related job titles": "Barbers Hairdressers Hairdressers and barbers not elsewhere classified."
+  },
+  {
+    "SOC code": "6222",
+    "Job type": "Beauticians and related occupations",
+    "Related job titles": "Body piercers Make-up artists Nail technicians Weight loss advisers Beauticians and related occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "6231",
+    "Job type": "Housekeepers and related occupations",
+    "Related job titles": "Housekeepers and related occupations"
+  },
+  {
+    "SOC code": "6232",
+    "Job type": "Caretakers",
+    "Related job titles": "Caretakers"
+  },
+  {
+    "SOC code": "6240",
+    "Job type": "Cleaning and housekeeping managers and supervisors",
+    "Related job titles": "Cleaning and housekeeping managers and supervisors"
+  },
+  {
+    "SOC code": "6250",
+    "Job type": "Bed and breakfast and guest house owners and proprietors",
+    "Related job titles": "Bed and breakfast and guest house owners and proprietors"
+  },
+  {
+    "SOC code": "6311",
+    "Job type": "Police community support officers",
+    "Related job titles": "Police community support officers"
+  },
+  {
+    "SOC code": "6312",
+    "Job type": "Parking and civil enforcement occupations",
+    "Related job titles": "Car park attendants Civil enforcement officers Neighbourhood wardens Parking and civil enforcement occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "7111",
+    "Job type": "Sales and retail assistants",
+    "Related job titles": "Sales and retail and assistants"
+  },
+  {
+    "SOC code": "7112",
+    "Job type": "Retail cashiers and check-out operators",
+    "Related job titles": "Retail cashiers and check-out operators"
+  },
+  {
+    "SOC code": "7113",
+    "Job type": "Telephone salespersons",
+    "Related job titles": "Telephone salespersons"
+  },
+  {
+    "SOC code": "7114",
+    "Job type": "Pharmacy and optical dispensing assistants",
+    "Related job titles": "Optical dispensing assistants Pharmacy dispensing assistants Pharmacy and optical dispensing assistants not elsewhere classified."
+  },
+  {
+    "SOC code": "7115",
+    "Job type": "Vehicle and parts salespersons and advisers",
+    "Related job titles": "Vehicle parts advisers Vehicle sales executives"
+  },
+  {
+    "SOC code": "7121",
+    "Job type": "Collector salespersons and credit agents",
+    "Related job titles": "Collector salespersons and credit agents"
+  },
+  {
+    "SOC code": "7122",
+    "Job type": "Debt, rent and other cash collectors",
+    "Related job titles": "Bailiffs Debt collectors Meter readers Pawn brokers Vending machine operators Debt, rent and other cash collectors not elsewhere classified."
+  },
+  {
+    "SOC code": "7123",
+    "Job type": "Roundspersons and van salespersons",
+    "Related job titles": "Roundspersons and van salespersons"
+  },
+  {
+    "SOC code": "7124",
+    "Job type": "Market and street traders and assistants",
+    "Related job titles": "Market and street traders and assistants"
+  },
+  {
+    "SOC code": "7125",
+    "Job type": "Visual merchandisers and related occupations",
+    "Related job titles": "Fashion stylists Visual merchandisers and window dressers Visual merchandisers and related occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "7129",
+    "Job type": "Sales related occupations not elsewhere classified.",
+    "Related job titles": "Demonstrators and product promoters Hire desk controllers Sales energy consultants Sales related occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "7131",
+    "Job type": "Shopkeepers and owners - retail and wholesale",
+    "Related job titles": "Antique dealers Art dealers Car traders Newsagents Retail jewellers Wholesalers Wine merchants Shopkeepers and owners - retail and wholesale not elsewhere classified."
+  },
+  {
+    "SOC code": "7132",
+    "Job type": "Sales supervisors - retail and wholesale",
+    "Related job titles": "Sales supervisors - retail and wholesale"
+  },
+  {
+    "SOC code": "7211",
+    "Job type": "Call and contact centre occupations",
+    "Related job titles": "Call and contact centre occupations"
+  },
+  {
+    "SOC code": "7212",
+    "Job type": "Telephonists",
+    "Related job titles": "Telephonists"
+  },
+  {
+    "SOC code": "7213",
+    "Job type": "Communication operators",
+    "Related job titles": "Air traffic control assistants Emergency services call handlers Taxi controllers Communication operators not elsewhere classified."
+  },
+  {
+    "SOC code": "7214",
+    "Job type": "Market research interviewers",
+    "Related job titles": "Field and telephone interviewers Mystery shoppers Political canvassers Traffic enumerators"
+  },
+  {
+    "SOC code": "7219",
+    "Job type": "Customer service occupations not elsewhere classified.",
+    "Related job titles": "Student ambassadors Customer service occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "7220",
+    "Job type": "Customer service supervisors",
+    "Related job titles": "Customer service supervisors"
+  },
+  {
+    "SOC code": "8111",
+    "Job type": "Food, drink and tobacco process operatives",
+    "Related job titles": "Brewery and distillery workers Dairy workers Food process bakery workers Tobacco workers Food, drink and tobacco process operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8112",
+    "Job type": "Textile process operatives",
+    "Related job titles": "Textile process operatives"
+  },
+  {
+    "SOC code": "8113",
+    "Job type": "Chemical and related process operatives",
+    "Related job titles": "Chemical and related process operatives"
+  },
+  {
+    "SOC code": "8114",
+    "Job type": "Plastics process operatives",
+    "Related job titles": "Plastic fabricators Plastics process operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8115",
+    "Job type": "Metal making and treating process operatives",
+    "Related job titles": "Galvanisers and platers Metal sprayers and powder coaters Metal making and treating process operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8119",
+    "Job type": "Process operatives not elsewhere classified.",
+    "Related job titles": "Ceramic workers Concrete operatives Glass workers Rubber workers Process operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8120",
+    "Job type": "Metal working machine operatives",
+    "Related job titles": "Press and stamp operators Metal working machine operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8131",
+    "Job type": "Paper and wood machine operatives",
+    "Related job titles": "Paper and wood machine operatives"
+  },
+  {
+    "SOC code": "8132",
+    "Job type": "Mining and quarry workers and related operatives",
+    "Related job titles": "Coal miners and quarry workers Offshore drilling workers Mining and quarry workers and related operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8133",
+    "Job type": "Energy plant operatives",
+    "Related job titles": "Boiler operatives Compressor operatives Nuclear decommissioning operatives Energy plant operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8134",
+    "Job type": "Water and sewerage plant operatives",
+    "Related job titles": "Water and sewerage distribution operatives Water treatment operatives Water and sewerage plant operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8135",
+    "Job type": "Printing machine assistants",
+    "Related job titles": "Printing machine assistants"
+  },
+  {
+    "SOC code": "8139",
+    "Job type": "Plant and machine operatives not elsewhere classified.",
+    "Related job titles": "Aerial installers Cable operatives Laser operators Spring makers Plant and machine breakers and dismantlers Plant and machine operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8141",
+    "Job type": "Assemblers",
+    "Related job titles": "Assemblers"
+  },
+  {
+    "SOC code": "8142",
+    "Job type": "Assemblers",
+    "Related job titles": "Metal goods assemblers Vehicle and vehicle part assemblers Assemblers not elsewhere classified."
+  },
+  {
+    "SOC code": "8143",
+    "Job type": "Routine inspectors and testers",
+    "Related job titles": "Routine inspectors and testers"
+  },
+  {
+    "SOC code": "8144",
+    "Job type": "Weighers, graders and sorters",
+    "Related job titles": "Weighers, graders and sorters"
+  },
+  {
+    "SOC code": "8145",
+    "Job type": "Tyre, exhaust and windscreen fitters",
+    "Related job titles": "Tyre technicians Windscreen fitters Tyre, exhaust and windscreen fitters not elsewhere classified."
+  },
+  {
+    "SOC code": "8146",
+    "Job type": "Sewing machinists",
+    "Related job titles": "Sewing machinists"
+  },
+  {
+    "SOC code": "8149",
+    "Job type": "Assemblers and routine operatives not elsewhere classified.",
+    "Related job titles": "Assemblers and routine operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8151",
+    "Job type": "Scaffolders, stagers and riggers",
+    "Related job titles": "Engineering construction riggers Scaffolders and stagers Scaffolders, stagers and riggers not elsewhere classified."
+  },
+  {
+    "SOC code": "8152",
+    "Job type": "Road construction operatives",
+    "Related job titles": "Road construction operatives"
+  },
+  {
+    "SOC code": "8153",
+    "Job type": "Rail construction and maintenance operatives",
+    "Related job titles": "Rail construction and maintenance operatives"
+  },
+  {
+    "SOC code": "8159",
+    "Job type": "Construction operatives not elsewhere classified.",
+    "Related job titles": "Asbestos removers Blind fitters Building maintenance operatives Cable layers Ceiling fitters Demolition operatives Drainage operatives Insulation engineers Pipe layers Sign fitters Construction operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8160",
+    "Job type": "Production, factory and assembly supervisors",
+    "Related job titles": "Production, factory and assembly supervisors"
+  },
+  {
+    "SOC code": "8211",
+    "Job type": "Heavy and large goods vehicle drivers",
+    "Related job titles": "Heavy and large goods vehicle drivers"
+  },
+  {
+    "SOC code": "8212",
+    "Job type": "Bus and coach drivers",
+    "Related job titles": "Bus and coach drivers"
+  },
+  {
+    "SOC code": "8213",
+    "Job type": "Taxi and cab drivers and chauffeurs",
+    "Related job titles": "Taxi and cab drivers and chauffeurs"
+  },
+  {
+    "SOC code": "8214",
+    "Job type": "Delivery drivers and couriers",
+    "Related job titles": "Bicycle and motorcycle couriers Delivery drivers and couriers not elsewhere classified."
+  },
+  {
+    "SOC code": "8215",
+    "Job type": "Driving instructors",
+    "Related job titles": "Cycling instructors Forklift instructors Heavy and large vehicle driving instructors Motorcycle instructors Passenger carrying vehicle and car driving instructors Driving instructors not elsewhere classified."
+  },
+  {
+    "SOC code": "8219",
+    "Job type": "Road transport drivers not elsewhere classified.",
+    "Related job titles": "Road transport drivers not elsewhere classified."
+  },
+  {
+    "SOC code": "8221",
+    "Job type": "Crane drivers",
+    "Related job titles": "Crane drivers"
+  },
+  {
+    "SOC code": "8222",
+    "Job type": "Fork-lift truck drivers",
+    "Related job titles": "Fork-lift truck drivers"
+  },
+  {
+    "SOC code": "8229",
+    "Job type": "Mobile machine drivers and operatives not elsewhere classified.",
+    "Related job titles": "Agricultural machinery operators Mobile machine drivers and operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8231",
+    "Job type": "Train and tram drivers",
+    "Related job titles": "Train and tram drivers"
+  },
+  {
+    "SOC code": "8232",
+    "Job type": "Marine and waterways transport operatives",
+    "Related job titles": "Marine and waterways transport operatives"
+  },
+  {
+    "SOC code": "8233",
+    "Job type": "Air transport operatives",
+    "Related job titles": "Aircraft refuellers Baggage handlers and ramp agents Air transport operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8234",
+    "Job type": "Rail transport operatives",
+    "Related job titles": "Level crossing attendants Railway controllers and signallers Shunters Rail transport operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "8239",
+    "Job type": "Other drivers and transport operatives not elsewhere classified.",
+    "Related job titles": "Other drivers and transport operatives not elsewhere classified."
+  },
+  {
+    "SOC code": "9111",
+    "Job type": "Farm workers",
+    "Related job titles": "Farm labourers"
+  },
+  {
+    "SOC code": "9112",
+    "Job type": "Forestry and related workers",
+    "Related job titles": "Forest workers Park wardens Forestry and related workers not elsewhere classified."
+  },
+  {
+    "SOC code": "9119",
+    "Job type": "Fishing and other elementary agriculture occupations not elsewhere classified.",
+    "Related job titles": "Cutters and pickers Fisheries and aquaculture labourers Garden and park labourers Milkers Sheep shearers Fishing and other elementary agriculture occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9121",
+    "Job type": "Groundworkers",
+    "Related job titles": "Groundworkers"
+  },
+  {
+    "SOC code": "9129",
+    "Job type": "Elementary construction occupations not elsewhere classified.",
+    "Related job titles": "Builder’s labourers Carpenter and joiner assistants Construction electrician’s assistants Grave diggers Insulation labourers Marquee erectors Plumber’s assistants Elementary construction occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9131",
+    "Job type": "Industrial cleaning process occupations",
+    "Related job titles": "Industrial cleaning process occupations"
+  },
+  {
+    "SOC code": "9132",
+    "Job type": "Packers, bottlers, canners and fillers",
+    "Related job titles": "Packers, bottlers, canners and fillers"
+  },
+  {
+    "SOC code": "9139",
+    "Job type": "Elementary process plant occupations not elsewhere classified.",
+    "Related job titles": "Elementary process plant occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9211",
+    "Job type": "Postal workers, mail sorters and messengers",
+    "Related job titles": "Postal delivery workers Mail sorters Postal workers, mail sorters and messengers not elsewhere classified."
+  },
+  {
+    "SOC code": "9219",
+    "Job type": "Elementary administration occupations not elsewhere classified.",
+    "Related job titles": "Reprographics assistants Elementary administration occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9221",
+    "Job type": "Window cleaners",
+    "Related job titles": "Window cleaners"
+  },
+  {
+    "SOC code": "9222",
+    "Job type": "Street cleaners",
+    "Related job titles": "Street cleaners"
+  },
+  {
+    "SOC code": "9223",
+    "Job type": "Cleaners and domestics",
+    "Related job titles": "Commercial cleaners Private house cleaners Cleaners and domestics not elsewhere classified."
+  },
+  {
+    "SOC code": "9224",
+    "Job type": "Launderers, dry cleaners and pressers",
+    "Related job titles": "Carpet cleaners Dry cleaners and laundry workers Ironers and pressers Launderers, dry cleaners and pressers not elsewhere classified."
+  },
+  {
+    "SOC code": "9225",
+    "Job type": "Refuse and salvage occupations",
+    "Related job titles": "Recycling operatives Refuse collectors Refuse and salvage occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9226",
+    "Job type": "Vehicle valeters and cleaners",
+    "Related job titles": "Vehicle valeters and cleaners"
+  },
+  {
+    "SOC code": "9229",
+    "Job type": "Elementary cleaning occupations not elsewhere classified.",
+    "Related job titles": "Bin cleaners Chimney sweepers Drain cleaners Toilet attendants Elementary cleaning occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9231",
+    "Job type": "Security guards and related occupations",
+    "Related job titles": "CCTV operators Court ushers Detention officers Door supervisors Security guards and related occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9232",
+    "Job type": "School midday and crossing patrol occupations",
+    "Related job titles": "School midday and crossing patrol occupations"
+  },
+  {
+    "SOC code": "9233",
+    "Job type": "Exam invigilators",
+    "Related job titles": "Exam invigilators"
+  },
+  {
+    "SOC code": "9241",
+    "Job type": "Shelf fillers",
+    "Related job titles": "Shelf fillers"
+  },
+  {
+    "SOC code": "9249",
+    "Job type": "Elementary sales occupations not elsewhere classified.",
+    "Related job titles": "Retail order pickers Trolley collectors Elementary sales occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9251",
+    "Job type": "Elementary storage supervisors",
+    "Related job titles": "Elementary storage supervisors"
+  },
+  {
+    "SOC code": "9252",
+    "Job type": "Warehouse operatives",
+    "Related job titles": "Warehouse operatives"
+  },
+  {
+    "SOC code": "9253",
+    "Job type": "Delivery operatives",
+    "Related job titles": "Delivery operatives"
+  },
+  {
+    "SOC code": "9259",
+    "Job type": "Elementary storage occupations not elsewhere classified.",
+    "Related job titles": "Dockers, slingers and stevedores Elementary storage occupations not elsewhere classified."
+  },
+  {
+    "SOC code": "9261",
+    "Job type": "Bar and catering supervisors",
+    "Related job titles": "Bar and catering supervisors"
+  },
+  {
+    "SOC code": "9262",
+    "Job type": "Hospital porters",
+    "Related job titles": "Hospital porters"
+  },
+  {
+    "SOC code": "9263",
+    "Job type": "Kitchen and catering assistants",
+    "Related job titles": "Kitchen and catering assistants"
+  },
+  {
+    "SOC code": "9264",
+    "Job type": "Waiters and waitresses",
+    "Related job titles": "Waiters and waitresses"
+  },
+  {
+    "SOC code": "9265",
+    "Job type": "Bar staff",
+    "Related job titles": "Bar staff"
+  },
+  {
+    "SOC code": "9266",
+    "Job type": "Coffee shop workers",
+    "Related job titles": "Coffee shop workers"
+  },
+  {
+    "SOC code": "9267",
+    "Job type": "Leisure and theme park attendants",
+    "Related job titles": "Arcade attendants Cinema and theatre attendants Event stewards Gallery and museum attendants Ride attendants Leisure and theme park attendants not elsewhere classified."
+  },
+  {
+    "SOC code": "9269",
+    "Job type": "Other elementary services occupations not elsewhere classified.",
+    "Related job titles": "Bingo callers and assistants Clairvoyants, mediums and astrologers Stagehands Turnstile operators Other elementary service occupations not elsewhere classified."
+  }
+]

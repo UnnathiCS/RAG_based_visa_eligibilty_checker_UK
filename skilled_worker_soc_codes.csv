@@ -1,0 +1,413 @@
+SOC code,Job type,Related job titles
+1111,Chief executives and senior officials,Chairpersons Chief executives Diplomats and foreign office officials Senior public service officials Chief executives and senior officials not elsewhere classified.
+1112,Elected officers and representatives,Assembly members and Members of Parliament Councillors Elected officers and representatives not elsewhere classified.
+1121,Production managers and directors in manufacturing,Production managers and directors in manufacturing
+1122,Production managers and directors in construction,Production managers and directors in construction
+1123,Production managers and directors in mining and energy,Managers and directors in the extraction of fossil fuels Managers and directors in the production of energy Production managers and directors in mining and energy not elsewhere classified.
+1131,Financial managers and directors,"Bank, building society and post office managers Company secretaries and finance managers and directors Investment bankers and directors Financial managers and directors not elsewhere classified."
+1132,"Marketing, sales and advertising directors","Advertising and marketing directors Sales directors Marketing, sales and advertising directors not elsewhere classified."
+1133,Public relations and communications directors,Public relations and communications directors
+1134,Purchasing managers and directors,Estimating managers and directors Procurement and purchasing managers and directors Purchasing managers and directors not elsewhere classified.
+1135,Charitable organisation managers and directors,Charitable organisation managers and directors
+1136,Human resource managers and directors,"Employee relations managers Equality, diversity and inclusion managers Learning and development managers and directors Recruitment managers and directors Human resources managers and directors not elsewhere classified."
+1137,Information technology directors,Information security directors Information technology operations directors Information technology programme managers and directors Information technology technical directors Information technology directors not elsewhere classified.
+1139,Functional managers and directors not elsewhere classified.,Accounts directors Administration directors Complaints and customer service directors Events directors Intellectual property managers and directors Municipal clerks Research and development directors Functional managers and directors not elsewhere classified.
+1140,"Directors in logistics, warehousing and transport","Supply chain directors Directors in logistics, warehousing and transport not elsewhere classified."
+1150,Managers and directors in retail and wholesale,Managers and directors in retail and wholesale
+1161,Officers in armed forces,Army officers Royal Air Force officers Royal Marines officers Royal Navy officers Officers in armed forces not elsewhere classified.
+1162,Senior police officers,"Chief, deputy chief and assistant chief constables Chief inspectors Chief superintendents Senior police officers not elsewhere classified."
+1163,"Senior officers in fire, ambulance, prison and related services",Senior officers in ambulance services Senior officers in fire services Senior officers in immigration services Senior officers in prison services Senior officers in revenue and customs
+1171,Health services and public health managers and directors,Clinical governance and information managers Healthcare service managers and directors Health services and public health managers and directors not elsewhere classified.
+1172,Social services managers and directors,Social services managers and directors
+1211,Managers and proprietors in agriculture and horticulture,Managers and proprietors in agriculture and horticulture
+1212,"Managers and proprietors in forestry, fishing and related services","Cattery and kennel managers and proprietors Fisheries managers and proprietors Forestry managers Livery yard and stud farm managers and proprietors Racehorse trainers Managers and proprietors in forestry, fishing and related services not elsewhere classified."
+1221,Hotel and accommodation managers and proprietors,Hotel and accommodation managers and proprietors
+1222,Restaurant and catering establishment managers and proprietors,Café and restaurant managers and proprietors Catering operations managers Takeaway managers and proprietors Restaurant and catering establishment managers and proprietors not elsewhere classified.
+1223,Publicans and managers of licensed premises,Publicans and managers of licensed premises
+1224,Leisure and sports managers and proprietors,"Cinema managers and proprietors Golf course managers Gym, fitness and leisure services managers and proprietors Marina managers Museum managers and proprietors Parks and gardens managers Theatre managers Leisure and sports managers and proprietors not elsewhere classified."
+1225,Travel agency managers and proprietors,Travel agency managers and proprietors
+1231,Health care practice managers,Dental practice managers Medical practice managers Opticians managers Veterinary practice managers Health care practice managers not elsewhere classified.
+1232,"Residential, day and domiciliary care managers and proprietors","Day care managers Home care managers Residential care managers and proprietors Residential, day and domiciliary care managers and proprietors not elsewhere classified."
+1233,Early education and childcare services proprietors,Early education and childcare services proprietors
+1241,Managers in transport and distribution,Airport managers Depot and fleet managers Dispatch and distribution managers Harbour and port managers Road traffic managers Managers in transport and distribution not elsewhere classified.
+1242,Managers in storage and warehousing,Managers in storage and warehousing
+1243,Managers in logistics,Managers in logistics
+1251,"Property, housing and estate managers","Facilities managers Landlords, property and housing managers Property investors and developers Sales and lettings managers Shopping centre managers Property, housing and estate managers not elsewhere classified."
+1252,Garage managers and proprietors,Garage managers and proprietors
+1253,Hairdressing and beauty salon managers and proprietors,Beauty salon managers and proprietors Hairdressing managers and proprietors Hairdressing and beauty salon managers and proprietors not elsewhere classified.
+1254,Waste disposal and environmental services managers,Landfill site managers Recycling managers Scrap yard managers Sewage works and water treatment managers Waste disposal and environmental services managers not elsewhere classified.
+1255,Managers and directors in the creative industries,Art gallery managers and directors Film and television production managers Publishing managers and directors Radio production managers Sport and talent agents Theatre production managers Managers and directors in the creative industries not elsewhere classified.
+1256,Betting shop and gambling establishment managers,Betting shop managers Bingo hall managers Casino managers Betting shop and gambling establishment managers not elsewhere classified.
+1257,Hire services managers and proprietors,Hire services managers and proprietors
+1258,Directors in consultancy services,Design consultancy directors Environmental consultancy directors Management consultancy directors Surveying consultancy directors Directors in consultancy services not elsewhere classified.
+1259,Managers and proprietors in other services not elsewhere classified.,Cleaning and hygiene services managers and proprietors Educational establishment managers and proprietors Funeral services and crematorium managers and proprietors Library managers Recruitment agency managers and proprietors Security services managers and proprietors Managers and proprietors in other services not elsewhere classified.
+2111,Chemical scientists,Analytical chemists Industrial chemists Nuclear and radiochemists Research and development chemists Chemical scientists not elsewhere classified.
+2112,Biological scientists,Agricultural scientists Biologists Botanical and horticultural scientists Microbiologists and bacteriologists Pathologists Pharmacologists Zoological scientists Biological scientists not elsewhere classified.
+2113,Biochemists and biomedical scientists,Biochemists Biomedical scientists Biotechnologists Clinical scientists Biochemists and biomedical scientists not elsewhere classified.
+2114,Physical scientists,Geologists Geophysicists Hydrogeologists and hydrologists Meteorologists Physical scientists not elsewhere classified.
+2115,Social and humanities scientists,Anthropologists Archaeologists Behavioural scientists Epidemiologists Genealogists Geographic information systems analysts Historians Political scientists Public health analysts Social and humanities scientists not elsewhere classified.
+2119,Natural and social science professionals not elsewhere classified.,Sports scientists Natural and social science professionals not elsewhere classified.
+2121,Civil engineers,Building and building services engineers Geotechnical engineers Mining engineers Structural engineers Transportation engineers Water engineers Civil engineers not elsewhere classified.
+2122,Mechanical engineers,Automotive engineers Marine engineers and naval architects Mechanical design engineers Mechanical engineers not elsewhere classified.
+2123,Electrical engineers,Laser engineers Power systems engineers Railway signalling engineers Electrical engineers not elsewhere classified.
+2124,Electronics engineers,Broadcast engineers Telecommunications engineers Electronics engineers not elsewhere classified.
+2125,Production and process engineers,Chemical engineers Control and instrumentation engineers Industrial and production engineers Production and process engineers not elsewhere classified.
+2126,Aerospace engineers,Aeronautical engineers Aircraft engineers Avionics engineers Aerospace engineers not elsewhere classified.
+2127,Engineering project managers and project engineers,Engineering project managers and project engineers
+2129,Engineering professionals not elsewhere classified.,Acoustic engineers Biomedical engineers Brewers Clinical Engineers Energy engineers Food technologists Gas engineers Heating and ventilating engineers Materials engineers Mechatronic engineers Nuclear engineers Patent engineers Robotics engineers Traffic engineers Engineering professionals not elsewhere classified.
+2131,IT project managers,IT project managers
+2132,IT managers,IT information managers IT product managers IT service delivery managers IT systems managers IT test managers Network managers Software development managers Technical support managers IT managers not elsewhere classified.
+2133,"IT business analysts, architects and systems designers","Computer analysts and scientists Data architects Data engineers IT systems architects IT business analysts IT solutions architects and designers IT business analysts, architects and systems designers not elsewhere classified."
+2134,Programmers and software development professionals,Computer games designers Computer programmers Software developers Programmers and software development professionals not elsewhere classified.
+2135,Cyber security professionals,Cyber operational defence specialists Cyber security management and governance specialists Forensic computer specialists Secure system development specialists Cyber security professionals not elsewhere classified.
+2136,IT quality and testing professionals,IT quality and testing professionals
+2137,IT network professionals,IT network professionals
+2139,Information technology professionals not elsewhere classified.,DevOps engineers IT consultants Webmasters and website managers Information technology professionals not elsewhere classified.
+2141,Web design professionals,Application designers UI and UX designers and researchers Web designers Web design professionals not elsewhere classified.
+2142,Graphic and multimedia designers,Multimedia animators Graphic and multimedia designers not elsewhere classified.
+2151,Conservation professionals,Conservationists Ecologists Heritage officers Conservation professionals not elsewhere classified.
+2152,Environment professionals,Energy managers Environmental and geo-environmental engineers Environmental consultants Environmental scientists Sustainability officers Environmental professionals not elsewhere classified.
+2161,Research and development managers,Laboratory managers Research and development design managers Research and development managers not elsewhere classified.
+2162,"Other researchers, unspecified discipline","Other researchers, unspecified discipline"
+2211,Generalist medical practitioners,General practitioners Public health doctors Generalist medical practitioners not elsewhere classified.
+2212,Specialist medical practitioners,Anaesthetists Cardiologists Dermatologists Gastroenterologists Gynaecologists and obstetricians Haematologists Homeopaths Neurologists Oncologists Paediatricians Psychiatrists Radiologists Rheumatologists Surgeons Specialist medical practitioners not elsewhere classified.
+2221,Physiotherapists,Physiotherapists
+2222,Occupational therapists,Occupational therapists
+2223,Speech and language therapists,Speech and language therapists
+2224,Psychotherapists and cognitive behaviour therapists,Cognitive behavioural therapists Psychotherapists Psychotherapists and cognitive behaviour therapists not elsewhere classified.
+2225,Clinical psychologists,Clinical psychologists
+2226,Other psychologists,Counselling psychologists Educational psychologists Forensic psychologists Health psychologists Occupational psychologists Research psychologists Sports psychologists Other psychologists not elsewhere classified.
+2229,Therapy professionals not elsewhere classified.,Acupuncturists Art therapists Chiropractors and osteopaths Drama therapists Music therapists Nutritionists Orthoptists Play therapists Psychological wellbeing practitioners Sports therapists Therapy professionals not elsewhere classified.
+2231,Midwifery nurses,Midwifery nurses
+2232,Registered community nurses,Learning disability community nurses Community nurses not elsewhere classified.
+2233,Registered specialist nurses,Diabetes specialist nurses Intensive care nurses Theatre nurses Specialist nurses not elsewhere classified.
+2234,Registered nurse practitioners,Mental health nurse practitioners Nurse practitioners not elsewhere classified.
+2235,Registered mental health nurses,Registered mental health nurses
+2236,Registered children’s nurses,Neonatal nurses Paediatric nurses School nurses
+2237,Other registered nursing professionals,Other registered nursing professionals
+2240,Veterinarians,Veterinarians
+2251,Pharmacists,Pharmacists
+2252,Optometrists,Optometrists
+2253,Dental practitioners,Dentists and dental surgeons Endodontists Orthodontists Periodontists Dental practitioners not elsewhere classified.
+2254,Medical radiographers,Diagnostic radiographers and sonographers Therapeutic radiographers Vascular scientists Medical radiographers not elsewhere classified.
+2255,Paramedics,Paramedics
+2256,Podiatrists,Podiatrists
+2259,Other health professionals not elsewhere classified.,Audiologists Cardiac physiologists Dietitians Health promotion officers Medical physicists and nuclear medicine scientists Mental health workers Occupational health advisers Operating department practitioners Orthotists and prosthetists Respiratory physiologists Sexual health advisers Other health professionals not elsewhere classified.
+2311,Higher education teaching professionals,Higher education teaching professionals
+2312,Further education teaching professionals,Further education teaching professionals
+2313,Secondary education teaching professionals,Teachers of art Teachers of biology Teachers of chemistry Teachers of design technology Teachers of drama Teachers of economics Teachers of English Teachers of geography Teachers of history Teachers of ICT and computer science Teachers of mathematics Teachers of modern foreign languages Teachers of music Teachers of physical education Teachers of physics Teachers of psychology Teachers of religious education Teachers of science Teachers of sociology Teachers of Welsh Secondary education teaching professionals not elsewhere classified.
+2314,Primary education teaching professionals,Primary education teaching professionals
+2315,Nursery education teaching professionals,Nursery education teaching professionals
+2316,Special and additional needs education teaching professionals,Special and additional educational needs teachers and coordinators Teachers of the deaf Teachers of the visually impaired Special and additional needs education teaching professionals not elsewhere classified.
+2317,Teachers of english as a foreign language,Teachers of English as a Foreign Language
+2319,Teaching professionals not elsewhere classified.,Adult education tutors Dance and drama school principals and owners Private music and singing teachers Private tutors Teaching professionals not elsewhere classified.
+2321,Head teachers and principals,Heads of further education establishments Heads of higher education establishments Heads of nursery schools Heads of primary schools Heads of secondary schools and sixth form colleges Heads of special needs education schools Head teachers and principals not elsewhere classified.
+2322,Education managers,Education managers
+2323,Education advisers and school inspectors,Educational advisers School inspectors
+2324,Early education and childcare services managers,Early education and childcare services managers
+2329,Other educational professionals not elsewhere classified,Bursars Educational administrators Examiners and markers Other educational professionals not elsewhere classified.
+2411,Barristers and judges,Barristers and advocates Judges Barristers and judges not elsewhere classified.
+2412,Solicitors and lawyers,Commercial solicitors and lawyers Criminal solicitors and lawyers Family solicitors and lawyers Property solicitors and lawyers Solicitors and lawyers not elsewhere classified.
+2419,Legal professionals not elsewhere classified.,Conveyancers Litigation executives Paralegals Patent and trademark attorneys Legal professionals not elsewhere classified.
+2421,Chartered and certified accountants,Auditors Financial accountants Forensic accountants Fund accountants Insolvency practitoners Chartered and certified accountants not elsewhere classified.
+2422,Finance and investment analysts and advisers,Credit analysts Financial advisers and planners Financial analysts Mortgage advisers Finance and investment analysts and advisers not elsewhere classified.
+2423,Taxation experts,Taxation experts
+2431,Management consultants and business analysts,Business analysts and consultants Management advisers and consultants Risk analysts Management consultants and business analysts not elsewhere classified.
+2432,Marketing and commercial managers,Commercial managers Marketing managers Marketing and commercial managers not elsewhere classified.
+2433,"Actuaries, economists and statisticians","Actuaries and actuarial analysts Economists Mathematicians Statistical data scientists Statisticians Actuaries, economists and statisticians not elsewhere classified."
+2434,Business and related research professionals,Intelligence analysts Researchers in media and entertainment Business and related research professionals not elsewhere classified.
+2435,Professional/chartered company secretaries,Professional/chartered company secretaries
+2439,"Business, research and administrative professionals not elsewhere classified.","Policy officers Business, research and administrative professionals not elsewhere classified."
+2440,Business and financial project management professionals,Business change managers Clinical trials coordinators Risk managers Business and financial project management professionals not elsewhere classified.
+2451,Architects,Architects Landscape architects and designers
+2452,"Chartered architectural technologists, planning officers and consultants","Chartered architectural technologists Town planning officers Urban designers Chartered architectural technologists, planning officers and consultants not elsewhere classified."
+2453,Quantity surveyors,Quantity surveyors
+2454,Chartered surveyors,Building control surveyors Hydrographic surveyors Land surveyors Property surveyors Chartered surveyors not elsewhere classified.
+2455,Construction project managers and related professionals,Construction project and contract managers Transport planners Construction project managers and related professionals not elsewhere classified.
+2461,Social workers,"Adult social workers Children, family and school social workers Criminal justice social workers Mental health and healthcare social workers Social workers not elsewhere classified."
+2462,Probation officers,Probation officers
+2463,Clergy,Clergy
+2464,Youth work professionals,Youth work professionals
+2469,Welfare professionals not elsewhere classified.,Adoption officers Children and family services professionals Mediators and restorative practice professionals Welfare professionals not elsewhere classified.
+2471,Librarians,Librarians
+2472,"Archivists, conservators and curators",Archivists Collection managers and curators Conservators Museum education officers Archivists and curators not elsewhere classified.
+2481,Quality control and planning engineers,Garment technologists Planning engineers Quality control engineers Quality control and planning engineers not elsewhere classified.
+2482,Quality assurance and regulatory professionals,Compliance and regulatory professionals Quality assurance professionals
+2483,Environmental health professionals,Environmental health professionals
+2491,"Newspaper, periodical and broadcast editors","Newspaper, periodical and broadcast editors"
+2492,Newspaper and periodical broadcast journalists and reporters,Broadcast journalists Newspaper journalists and reporters Newspaper and periodical journalists and reporters not elsewhere classified.
+2493,Public relations professionals,Press officers Public relations officers Social media managers Public relations professionals not elsewhere classified.
+2494,Advertising accounts managers and creative directors,Advertising account managers Creative directors Fundraising managers
+3111,Laboratory technicians,Biological laboratory technicians Chemical laboratory technicians Health physics monitors Laboratory food technicians Medical laboratory technicians Laboratory technicians not elsewhere classified.
+3112,Electrical and electronics technicians,Avionics technicians Electrical and electronics technicians not elsewhere classified.
+3113,Engineering technicians,Aerospace technicians Wind turbine technicians Engineering technicians not elsewhere classified.
+3114,Building and civil engineering technicians,Building technicians Civil engineering technicians Surveying technicians Building and civil engineering technicians not elsewhere classified.
+3115,Quality assurance technicians,Quality assurance technicians
+3116,"Planning, process and production technicians","Planning, process and production technicians"
+3119,"Science, engineering and production technicians not elsewhere classified.","School technicians Textile consultants Science, engineering and production technicians not elsewhere classified."
+3120,"CAD, drawing and architectural technicians","Architectural technicians BIM and CAD technicians Cartographers CAD, drawing and architectural technicians not elsewhere classified"
+3131,IT operations technicians,Games testers Network and systems administrators Quality assurance testers Software technicians IT operations technicians not elsewhere classified.
+3132,IT user support technicians,IT user support technicians
+3133,Database administrators and web content technicians,Database administrators Web content technicians Database administrators and web content technicians not elsewhere classified.
+3211,Dispensing opticians,Dispensing opticians
+3212,Pharmaceutical technicians,Pharmaceutical technicians
+3213,Medical and dental technicians,Cardiac technicians Dental hygienists Dental technicians Hearing aid dispensers Hearing screeners Nursing associates Orthotic and prosthetic technicians Medical and dental technicians not elsewhere classified.
+3214,Complementary health associate professionals,Alexander technique teachers Aromatherapists Homeopaths Hospital play specialists Hypnotherapists Massage therapists Reflexologists Reiki healers Complementary health associate professionals not elsewhere classified.
+3219,Health associate professionals not elsewhere classified.,Antenatal teachers Dietetic assistants Equine dentists Foot health practitioners Health trainers Home economists Health associate professionals not elsewhere classified.
+3221,Youth and community workers,Community workers Family support workers Youth workers Youth and community workers not elsewhere classified.
+3222,Child and early years officers,Child protection officers Learning and behaviour mentors Welfare and attendance officers Child and early years officers not elsewhere classified.
+3223,Housing officers,Housing officers
+3224,Counsellors,Bereavement counsellors Debt advisers Life coaches Relationship counsellors Substance misuse workers Counsellors not elsewhere classified.
+3229,Welfare and housing associate professionals not elsewhere classified.,Advocates Celebrants Charity workers Day care officers Health advisers Homelessness and housing advice support workers Mental health project workers Probation service workers Student support workers Victim support workers Welfare and housing associate professionals not elsewhere classified.
+3231,Higher level teaching assistants,Higher level teaching assistants
+3232,Early education and childcare practitioners,Early education and childcare practitioners
+3240,Veterinary nurses,Veterinary nurses
+3311,Non-commissioned officers and other ranks,Non-commissioned Army officers and others ranks Non-commissioned Royal Air Force officers and other ranks Non-commissioned Royal Navy officers and other ranks Royal Marines Commandos Non-commissioned officers and other ranks not elsewhere classified.
+3312,Police officers,Police constable Police sergeant Police officers not elsewhere classified.
+3313,Fire service officers,Firefighters Fire service crew managers Watch managers Fire service officers not elsewhere classified.
+3314,Prison service officers,Operational support grades Prison officers Prison service officers not elsewhere classified.
+3319,Protective service associate professionals not elsewhere classified.,Coastguard Customs and border control officers Fraud investigators Immigration officers Private investigators Security consultants and managers Protective service associate professionals not elsewhere classified.
+3411,Artists,Art technicians Drawing and painting artists Hand drawn animators Illustrators Medical and scientific illustrators Picture restorers Sculptors Tattoo and henna artists Artists not elsewhere classified.
+3412,"Authors, writers and translators","Authors Bloggers Copywriters Literary editors Poets Script writers Technical writers Translators and interpreters Authors, writers and translators not elsewhere classified."
+3413,"Actors, entertainers and presenters","Actors Broadcasters, podcasters and presenters Children’s entertainers Comedians Disc jockeys Magicians Models Singers Social media influencers Actors, entertainers and presenters not elsewhere classified."
+3414,Dancers and choreographers,Choreographers Dance teachers Dancers
+3415,Musicians,Composers and musical arrangers Music conductors Instrumentalists Musicians not elsewhere classified.
+3416,"Arts officers, producers and directors","Art consultants Broadcasting and entertainment directors Broadcasting and entertainment editors Broadcasting and entertainment producers Studio and stage managers Arts officers, producers and directors not elsewhere classified."
+3417,"Photographers, audio-visual and broadcasting equipment operators","Camera operators and videographers Lighting designers Photographers Sound designers Sound engineers Theatre technicians Photographers, audio-visual and broadcasting equipment operators not elsewhere classified."
+3421,Interior designers,Interior designers
+3422,"Clothing, fashion and accessories designers","Clothing and fashion consultants Clothing and fashion designers Footwear designers Jewellery designers Textile designers Clothing, fashion and accessories designers not elsewhere classified."
+3429,Design occupations not elsewhere classified.,Industrial and product designers Packaging designers Performance make-up artists Set designers Visual merchandising managers and designers Design occupations not elsewhere classified.
+3431,Sports players,Sports players
+3432,"Sports coaches, instructors and officials","Basketball coaches Cricket coaches Football coaches Forest school practitioners Golf coaches Gymnastics coaches Horse riding instructors Martial arts instructors Outdoor pursuits instructors Referees, umpires and other sports officials Rugby coaches Sailing instructors Ski instructors Sports development officers Swimming coaches Tennis coaches Sports coaches, instructors and officials not elsewhere classified."
+3433,Fitness and wellbeing instructors,Group fitness instructors and personal trainers Pilates teachers Yoga teachers Fitness and wellbeing instructors not elsewhere classified.
+3511,Aircraft pilots and air traffic controllers,Airline pilots Air traffic controllers Flying instructors Helicopter pilots Aircraft pilots and air traffic controllers not elsewhere classified.
+3512,Ship and hovercraft officers,Ship and hovercraft captains and deck officers Marine engineers Ship and hovercraft officers not elsewhere classified.
+3520,Legal associate professionals,Conveyancing professionals Cost lawyers Barrister’s and judge’s clerks Litigation officers Probate managers Will writers Legal associate professionals not elsewhere classified.
+3531,Brokers,Commodity brokers and traders Insurance and mortgage brokers Shipbrokers Stockbrokers Brokers not elsewhere classified.
+3532,Insurance underwriters,Insurance underwriters
+3533,Financial and accounting technicians,Accounting technicians Financial control technicians Financial and accounting technicians not elsewhere classified.
+3534,Financial accounts managers,Claims managers Credit managers Investment managers Relationship managers Financial accounts managers not elsewhere classified.
+3541,"Estimators, valuers and assessors","Energy advisers and assessors Estimators Loss adjusters Valuers Vehicle damage assessors Estimators, valuers and assessors not elsewhere classified."
+3542,Importers and exporters,Importers and exporters
+3543,Project support officers,Project support officers
+3544,Data analysts,Data analysts
+3549,Business associate professionals not elsewhere classified.,Business support officers Business systems analysts Contract administrators Clinical coders Clinical trials administrators Research coordinators Business associate professionals not elsewhere classified.
+3551,Buyers and procurement officers,Buyers and procurement officers
+3552,Business sales executives,Business sales executives
+3553,Merchandisers,Merchandisers
+3554,Advertising and marketing associate professionals,Advertising and marketing executives Fundraisers Market researchers Marketing associate professionals not elsewhere classified.
+3555,Estate agents and auctioneers,Estate agents Land and property auctioneers and valuers Letting agents Estate agents and auctioneers not elsewhere classified
+3556,Sales accounts and business development managers,Brand managers Business development managers Sales account managers Sales accounts and business development managers not elsewhere classified.
+3557,Events managers and organisers,Conference managers and organisers Exhibition managers and organisers Festival managers and organisers Hospitality managers Wedding planners and organisers Event managers and organisers not elsewhere classified.
+3560,Public services associate professionals,Electoral services officers Health service administrators Job Centre officers Waste management officers Public services associate professionals not elsewhere classified.
+3571,Human resources and industrial relations officers,Equality and diversity officers Human resources advisers Recruitment consultants Human resources and industrial relations officers not elsewhere classified.
+3572,Careers advisers and vocational guidance specialists,Careers advisers and coaches Work placement officers Careers advisers and vocational guidance specialists not elsewhere classified.
+3573,Information technology trainers,Information technology trainers
+3574,Other vocational and industrial trainers,Business coaches Retail and store trainers Training assessors Other vocational and industrial trainers not elsewhere classified.
+3581,Inspectors of standards and regulations,Animal health inspectors and officers Building control officers Driving examiners Health and safety inspectors Housing and planning inspectors Licensing officers Meat hygiene inspectors Nuclear safety inspectors Trading standards officers Traffic and vehicle examiners and inspectors Inspectors of standards and regulations not elsewhere classified.
+3582,Health and safety managers and officers,Asbestos safety officers Fire safety managers and officers Occupational health and safety managers and officers Road traffic and transport safety officers Occupational hygienists Health and safety managers and officers not elsewhere classified.
+4111,National government administrative occupations,National government benefits officers National government revenue officers Passport officers National government administrative occupations not elsewhere classified.
+4112,Local government administrative occupations,Local government benefits officers Local government housing assistants Local government revenue officers Parish clerks Local government administrative occupations not elsewhere classified.
+4113,Officers of non-governmental organisations,Charity administrators Clerks to governors Union officials Officers of non-governmental organisations not elsewhere classified.
+4121,Credit controllers,Credit controllers
+4122,"Book-keepers, payroll managers and wages clerks","Accounting clerks and bookkeepers Payroll officers and wages clerks Bookkeepers, payroll managers and wage clerks not elsewhere classified."
+4123,Bank and post office clerks,Bank and building society clerks Post office clerks Bank and post office clerks not elsewhere classified.
+4124,Finance officers,Finance officers
+4129,Financial administrative occupations not elsewhere classified.,Box office assistants Grants officers Mortgage administrators Revenue assistants Treasury assistants Finance administrative occupations not elsewhere classified.
+4131,Records clerks and assistants,Admissions officers Court officers Enumerators Examinations officers Indexers Medical administrators and appointment clerks Purchasing administrators Records clerks and assistants not elsewhere classified.
+4132,Pensions and insurance clerks and assistants,Claims handlers Insurance administrators Pensions administrators Pensions and insurance clerks and assistants not elsewhere classified.
+4133,Stock control clerks and assistants,Stock control clerks and assistants
+4134,Transport and distribution clerks and assistants,Transport and distribution clerks and assistants
+4135,Library clerks and assistants,Library clerks and assistants
+4136,Human resources administrative occupations,Recruitment administrators Training administrators Human resources administrative occupations not elsewhere classified.
+4141,Office managers,Office managers
+4142,Office supervisors,Office supervisors
+4143,Customer service managers,Call centre managers Customer service managers not elsewhere classified.
+4151,Sales administrators,Sales administrators
+4152,Data entry administrators,Data entry administrators
+4159,Other administrative occupations not elsewhere classified.,Business administrators Church administrators Facilities coordinators Proofreaders Property administrators Warranty administrators Other administrative occupations not elsewhere classified.
+4211,Medical secretaries,Medical secretaries
+4212,Legal secretaries,Legal secretaries
+4213,School secretaries,School secretaries
+4214,Company secretaries and administrators,Company secretaries and administrators
+4215,Personal assistants and other secretaries,Farm secretaries Personal assistants Personal assistants and other secretaries not elsewhere classified.
+4216,Receptionists,Receptionists
+4217,Typists and related keyboard occupations,Stenographers Transcribers Typists Typists and related keyboard occupations not elsewhere classified.
+5111,Farmers,Agricultural contractors Aquaculture farmers Arable farmers Dairy farmers Livestock farmers Poultry farmers Farmers not elsewhere classified.
+5112,Horticultural trades,Horticultural trades
+5113,Gardeners and landscape gardeners,Garden designers Gardeners Green roof installers Landscape gardeners Gardeners and landscape gardeners not elsewhere classified.
+5114,Groundsmen and greenkeepers,Groundsmen and greenkeepers
+5119,Agricultural and fishing trades not elsewhere classified.,Arborists Beekeepers Countryside and park officers and rangers Falconers Fish and river keepers Fishers Gamekeepers Agricultural and fishing trades not elsewhere classified.
+5211,Sheet metal workers,Metal fabricators and finishers Panel beaters Whitesmiths Sheet metal workers not elsewhere classified.
+5212,"Metal plate workers, smiths, moulders and related occupations","Die casters Farriers Moulders, mould makers and core makers Smiths Metal plate workers, smiths, moulders and related occupations not elsewhere classified."
+5213,Welding trades,Braziers and solderers Pipe welders Plate welders Welding trades not elsewhere classified.
+5214,Pipe fitters,Pipe fitters
+5221,Metal machining setters and setter-operators,Computer numerical control machine setters and setter-operators Metal machining setters and setter-operators not elsewhere classified.
+5222,"Tool makers, tool fitters and markers-out","Tool fitters Tool makers Tool makers, tool fitters and markers-out not elsewhere classified."
+5223,Metal working production and maintenance fitters,Automation maintenance technicians Bicycle mechanics Catering equipment technicians Door fitters and makers Gunsmiths Heavy plant maintenance technicians Hydraulic technicians Lift technicians Locksmiths Pump technicians Textile machine technicians Turbine fitters Metal working production and maintenance fitters not elsewhere classified.
+5224,Precision instrument makers and repairers,"Calibration and precision instrument technicians Camera and photographic equipment technicians Horologists, watch makers and repairers Optical technicians Precision instrument makers and repairers not elsewhere classified."
+5225,Air-conditioning and refrigeration installers and repairers,Air-conditioning and refrigeration installers and repairers
+5231,"Vehicle technicians, mechanics and electricians","Auto electricians Car/light vehicle technicians Heavy and large vehicle technicians Motorcycle technicians Motorsport technicians MOT testers Roadside assistance technicians Vehicle technicians, mechanics and electricians not elsewhere classified."
+5232,Vehicle body builders and repairers,Vehicle body builders and repairers
+5233,Vehicle paint technicians,Vehicle paint technicians
+5234,Aircraft maintenance and related trades,Aircraft maintenance and related trades
+5235,Boat and ship builders and repairers,Boat and ship builders and repairers
+5236,Rail and rolling stock builders and repairers,Rail and rolling stock builders and repairers
+5241,Electricians and electrical fitters,Electric vehicle charging point installers Electro-mechanical technicians Installation and maintenance electricians Smart energy experts Solar panel installers Street lighting electrician Electricians and electrical fitters not elsewhere classified.
+5242,Telecoms and related network installers and repairers,Telecoms and related network installers and repairers
+5243,"Tv, video and audio servicers and repairers","TV, video and audio servicers and repairers"
+5244,Computer system and equipment installers and servicers,Computer system and equipment installers and servicers
+5245,Security system installers and repairers,Security system installers and repairers
+5246,Electrical service and maintenance mechanics and repairers,Electrical service and maintenance mechanics and repairers
+5249,Electrical and electronic trades not elsewhere classified.,Broadcast and communications technicians Overhead line workers Signal workers Electrical and electronic trades not elsewhere classified.
+5250,"Skilled metal, electrical and electronic trades supervisors","Skilled metal, electrical and electronic trades supervisors"
+5311,Steel erectors,Steel erectors
+5312,Stonemasons and related trades,Dry stone wallers Monumental masons Stonemasons Stonemasons and related trades not elsewhere classified.
+5313,Bricklayers,Bricklayers
+5314,"Roofers, roof tilers and slaters","Felt and flat roofers Sheeters and cladders Thatchers Tilers and slaters Roofers, roof tilers and slaters not elsewhere classified."
+5315,Plumbers and heating and ventilating installers and repairers,Plumbers and heating and ventilation installers and repairers
+5316,Carpenters and joiners,Bedroom and kitchen fitters Carpenters Joiners Carpenters and joiners not elsewhere classified.
+5317,"Glaziers, window fabricators and fitters","Glass cutters and glaziers Window fabricators Window fitters Glaziers, window fabricators and fitters not elsewhere classified."
+5319,Construction and building trades not elsewhere classified.,Builders Divers Fence erectors Industrial climbers Remotely Operated Vehicle operators Steel fixers and underpinners Construction and building trades not elsewhere classified.
+5321,Plasterers,Dry liners Plasterers
+5322,Floorers and wall tilers,Carpet and linoleum fitters Floor layers Tilers Floorers and wall tilers not elsewhere classified.
+5323,Painters and decorators,Painters and decorators
+5330,Construction and building trades supervisors,Carpenter and joinery supervisors Demolition supervisors Painting supervisors Plumbing supervisors Road construction supervisors Roofing supervisors Scaffolding supervisors Construction and building trade supervisors not elsewhere classified.
+5411,Upholsterers,Curtain makers Trimmers and upholsterers Upholsterers not elsewhere classified.
+5412,Footwear and leather working trades,Footwear makers and repairers Leather workers Footwear and leather working trades not elsewhere classified.
+5413,Tailors and dressmakers,Costume makers Dressmakers Fitters and alterations assistants Kilt makers Milliners Tailors Tailors and dressmakers not elsewhere classified.
+5419,"Textiles, garments and related trades not elsewhere classified.","Embroiderers and sewers Knitters Sail makers Weavers Textiles, garments and related trades not elsewhere classified."
+5421,Pre-press technicians,Pre-press technicians
+5422,Printers,Digital printers Flexographic printers Lithographic printers Screen printers Printers not elsewhere classified.
+5423,Print finishing and binding workers,Print finishing and binding workers
+5431,Butchers,Butchers Slaughterers
+5432,Bakers and flour confectioners,Bakers Cake decorators and designers Bakers and flour confectioners not elsewhere classified.
+5433,Fishmongers and poultry dressers,Fishmongers Poultry dressers Fishmongers and poultry dressers not elsewhere classified.
+5434,Chefs,Chefs
+5435,Cooks,Cooks
+5436,Catering and bar managers,Catering and bar managers
+5441,"Glass and ceramics makers, decorators and finishers","Ceramic makers, decorators and finishers Ceramic potters Glass blowers Glass makers, decorators and finishers Optical glass makers Glass and ceramics makers, decorators and finishers not elsewhere classified."
+5442,Furniture makers and other craft woodworkers,Cabinet makers Furniture makers and fitters Furniture restorers Furniture sprayers and finishers Picture framers Shed makers Furniture makers and other craft woodworkers not elsewhere classified.
+5443,Florists,Florists
+5449,Other skilled trades not elsewhere classified.,"Basket makers Candle makers Goldsmiths, silversmiths, jewellers and precious stone workers Hairpiece and wig makers Metal engravers Craft model makers Musical instrument repairers, makers and tuners Sign makers and writers Toy makers and repairers Other skilled trades not elsewhere classified."
+6111,Early education and childcare assistants,Early education and childcare assistants
+6112,Teaching assistants,Cover supervisors School teaching assistants Teaching assistants not elsewhere classified.
+6113,Educational support assistants,Behaviour support assistants Communication support assistants Learning support assistants Educational support assistants not elsewhere classified.
+6114,Childminders,Childminders
+6116,Nannies and au pairs,Au pairs Nannies
+6117,Playworkers,Playworkers
+6121,Pest control officers,Fumigators Mole catchers Rodent control officers Pest control officers not elsewhere classified.
+6129,Animal care services occupations not elsewhere classified,Animal boarding assistants Animal breeders Animal groomers Animal trainers Animal walkers Animal welfare workers Stable workers Veterinary assistants Zookeepers Animal care services occupations not elsewhere classified.
+6131,Nursing auxiliaries and assistants,Blood donor carers and phlebotomists First aid trainers Maternity care assistants Occupational therapy assistants Physiotherapy assistants Radiography assistants Speech and language therapy assistants Sterile services assistants Theatre assistants Nursing auxiliaries and assistants not elsewhere classified.
+6132,Ambulance staff,Ambulance staff
+6133,Dental nurses,Dental nurses
+6134,Houseparents and residential wardens,Foster carers Residential childcare practitioners School matrons and houseparents Residential housing wardens Houseparents and residential wardens not elsewhere classified.
+6135,Care workers and home carers,Community support workers Home care workers Residential care workers Care workers and home carers not elsewhere classified.
+6136,Senior care workers,Senior community support workers Senior home care workers Senior residential care workers Senior care workers not elsewhere classified.
+6137,Care escorts,Care escorts
+6138,"Undertakers, mortuary and crematorium assistants","Crematorium assistants Driver-bearers Embalmers Funeral directors and undertakers Taxidermists Undertakers, mortuary and crematorium assistants not elsewhere classified."
+6211,Sports and leisure assistants,Bookmakers Croupiers Film and television runners Leisure and recreation assistants Lifeguards Museum and heritage assistants Sports and leisure assistants not elsewhere classified.
+6212,Travel agents,Travel agents
+6213,Air travel assistants,Flight attendants Passenger services assistants Air travel assistants not elsewhere classified.
+6214,Rail travel assistants,Railway station assistants Revenue protection officers Train conductors and guards Rail travel assistants not elsewhere classified.
+6219,Leisure and travel service occupations not elsewhere classified.,Holiday representatives Ship stewards Tour guides Tourist information assistants Leisure and travel service occupations not elsewhere classified.
+6221,Hairdressers and barbers,Barbers Hairdressers Hairdressers and barbers not elsewhere classified.
+6222,Beauticians and related occupations,Body piercers Make-up artists Nail technicians Weight loss advisers Beauticians and related occupations not elsewhere classified.
+6231,Housekeepers and related occupations,Housekeepers and related occupations
+6232,Caretakers,Caretakers
+6240,Cleaning and housekeeping managers and supervisors,Cleaning and housekeeping managers and supervisors
+6250,Bed and breakfast and guest house owners and proprietors,Bed and breakfast and guest house owners and proprietors
+6311,Police community support officers,Police community support officers
+6312,Parking and civil enforcement occupations,Car park attendants Civil enforcement officers Neighbourhood wardens Parking and civil enforcement occupations not elsewhere classified.
+7111,Sales and retail assistants,Sales and retail and assistants
+7112,Retail cashiers and check-out operators,Retail cashiers and check-out operators
+7113,Telephone salespersons,Telephone salespersons
+7114,Pharmacy and optical dispensing assistants,Optical dispensing assistants Pharmacy dispensing assistants Pharmacy and optical dispensing assistants not elsewhere classified.
+7115,Vehicle and parts salespersons and advisers,Vehicle parts advisers Vehicle sales executives
+7121,Collector salespersons and credit agents,Collector salespersons and credit agents
+7122,"Debt, rent and other cash collectors","Bailiffs Debt collectors Meter readers Pawn brokers Vending machine operators Debt, rent and other cash collectors not elsewhere classified."
+7123,Roundspersons and van salespersons,Roundspersons and van salespersons
+7124,Market and street traders and assistants,Market and street traders and assistants
+7125,Visual merchandisers and related occupations,Fashion stylists Visual merchandisers and window dressers Visual merchandisers and related occupations not elsewhere classified.
+7129,Sales related occupations not elsewhere classified.,Demonstrators and product promoters Hire desk controllers Sales energy consultants Sales related occupations not elsewhere classified.
+7131,Shopkeepers and owners - retail and wholesale,Antique dealers Art dealers Car traders Newsagents Retail jewellers Wholesalers Wine merchants Shopkeepers and owners - retail and wholesale not elsewhere classified.
+7132,Sales supervisors - retail and wholesale,Sales supervisors - retail and wholesale
+7211,Call and contact centre occupations,Call and contact centre occupations
+7212,Telephonists,Telephonists
+7213,Communication operators,Air traffic control assistants Emergency services call handlers Taxi controllers Communication operators not elsewhere classified.
+7214,Market research interviewers,Field and telephone interviewers Mystery shoppers Political canvassers Traffic enumerators
+7219,Customer service occupations not elsewhere classified.,Student ambassadors Customer service occupations not elsewhere classified.
+7220,Customer service supervisors,Customer service supervisors
+8111,"Food, drink and tobacco process operatives","Brewery and distillery workers Dairy workers Food process bakery workers Tobacco workers Food, drink and tobacco process operatives not elsewhere classified."
+8112,Textile process operatives,Textile process operatives
+8113,Chemical and related process operatives,Chemical and related process operatives
+8114,Plastics process operatives,Plastic fabricators Plastics process operatives not elsewhere classified.
+8115,Metal making and treating process operatives,Galvanisers and platers Metal sprayers and powder coaters Metal making and treating process operatives not elsewhere classified.
+8119,Process operatives not elsewhere classified.,Ceramic workers Concrete operatives Glass workers Rubber workers Process operatives not elsewhere classified.
+8120,Metal working machine operatives,Press and stamp operators Metal working machine operatives not elsewhere classified.
+8131,Paper and wood machine operatives,Paper and wood machine operatives
+8132,Mining and quarry workers and related operatives,Coal miners and quarry workers Offshore drilling workers Mining and quarry workers and related operatives not elsewhere classified.
+8133,Energy plant operatives,Boiler operatives Compressor operatives Nuclear decommissioning operatives Energy plant operatives not elsewhere classified.
+8134,Water and sewerage plant operatives,Water and sewerage distribution operatives Water treatment operatives Water and sewerage plant operatives not elsewhere classified.
+8135,Printing machine assistants,Printing machine assistants
+8139,Plant and machine operatives not elsewhere classified.,Aerial installers Cable operatives Laser operators Spring makers Plant and machine breakers and dismantlers Plant and machine operatives not elsewhere classified.
+8141,Assemblers,Assemblers
+8142,Assemblers,Metal goods assemblers Vehicle and vehicle part assemblers Assemblers not elsewhere classified.
+8143,Routine inspectors and testers,Routine inspectors and testers
+8144,"Weighers, graders and sorters","Weighers, graders and sorters"
+8145,"Tyre, exhaust and windscreen fitters","Tyre technicians Windscreen fitters Tyre, exhaust and windscreen fitters not elsewhere classified."
+8146,Sewing machinists,Sewing machinists
+8149,Assemblers and routine operatives not elsewhere classified.,Assemblers and routine operatives not elsewhere classified.
+8151,"Scaffolders, stagers and riggers","Engineering construction riggers Scaffolders and stagers Scaffolders, stagers and riggers not elsewhere classified."
+8152,Road construction operatives,Road construction operatives
+8153,Rail construction and maintenance operatives,Rail construction and maintenance operatives
+8159,Construction operatives not elsewhere classified.,Asbestos removers Blind fitters Building maintenance operatives Cable layers Ceiling fitters Demolition operatives Drainage operatives Insulation engineers Pipe layers Sign fitters Construction operatives not elsewhere classified.
+8160,"Production, factory and assembly supervisors","Production, factory and assembly supervisors"
+8211,Heavy and large goods vehicle drivers,Heavy and large goods vehicle drivers
+8212,Bus and coach drivers,Bus and coach drivers
+8213,Taxi and cab drivers and chauffeurs,Taxi and cab drivers and chauffeurs
+8214,Delivery drivers and couriers,Bicycle and motorcycle couriers Delivery drivers and couriers not elsewhere classified.
+8215,Driving instructors,Cycling instructors Forklift instructors Heavy and large vehicle driving instructors Motorcycle instructors Passenger carrying vehicle and car driving instructors Driving instructors not elsewhere classified.
+8219,Road transport drivers not elsewhere classified.,Road transport drivers not elsewhere classified.
+8221,Crane drivers,Crane drivers
+8222,Fork-lift truck drivers,Fork-lift truck drivers
+8229,Mobile machine drivers and operatives not elsewhere classified.,Agricultural machinery operators Mobile machine drivers and operatives not elsewhere classified.
+8231,Train and tram drivers,Train and tram drivers
+8232,Marine and waterways transport operatives,Marine and waterways transport operatives
+8233,Air transport operatives,Aircraft refuellers Baggage handlers and ramp agents Air transport operatives not elsewhere classified.
+8234,Rail transport operatives,Level crossing attendants Railway controllers and signallers Shunters Rail transport operatives not elsewhere classified.
+8239,Other drivers and transport operatives not elsewhere classified.,Other drivers and transport operatives not elsewhere classified.
+9111,Farm workers,Farm labourers
+9112,Forestry and related workers,Forest workers Park wardens Forestry and related workers not elsewhere classified.
+9119,Fishing and other elementary agriculture occupations not elsewhere classified.,Cutters and pickers Fisheries and aquaculture labourers Garden and park labourers Milkers Sheep shearers Fishing and other elementary agriculture occupations not elsewhere classified.
+9121,Groundworkers,Groundworkers
+9129,Elementary construction occupations not elsewhere classified.,Builder’s labourers Carpenter and joiner assistants Construction electrician’s assistants Grave diggers Insulation labourers Marquee erectors Plumber’s assistants Elementary construction occupations not elsewhere classified.
+9131,Industrial cleaning process occupations,Industrial cleaning process occupations
+9132,"Packers, bottlers, canners and fillers","Packers, bottlers, canners and fillers"
+9139,Elementary process plant occupations not elsewhere classified.,Elementary process plant occupations not elsewhere classified.
+9211,"Postal workers, mail sorters and messengers","Postal delivery workers Mail sorters Postal workers, mail sorters and messengers not elsewhere classified."
+9219,Elementary administration occupations not elsewhere classified.,Reprographics assistants Elementary administration occupations not elsewhere classified.
+9221,Window cleaners,Window cleaners
+9222,Street cleaners,Street cleaners
+9223,Cleaners and domestics,Commercial cleaners Private house cleaners Cleaners and domestics not elsewhere classified.
+9224,"Launderers, dry cleaners and pressers","Carpet cleaners Dry cleaners and laundry workers Ironers and pressers Launderers, dry cleaners and pressers not elsewhere classified."
+9225,Refuse and salvage occupations,Recycling operatives Refuse collectors Refuse and salvage occupations not elsewhere classified.
+9226,Vehicle valeters and cleaners,Vehicle valeters and cleaners
+9229,Elementary cleaning occupations not elsewhere classified.,Bin cleaners Chimney sweepers Drain cleaners Toilet attendants Elementary cleaning occupations not elsewhere classified.
+9231,Security guards and related occupations,CCTV operators Court ushers Detention officers Door supervisors Security guards and related occupations not elsewhere classified.
+9232,School midday and crossing patrol occupations,School midday and crossing patrol occupations
+9233,Exam invigilators,Exam invigilators
+9241,Shelf fillers,Shelf fillers
+9249,Elementary sales occupations not elsewhere classified.,Retail order pickers Trolley collectors Elementary sales occupations not elsewhere classified.
+9251,Elementary storage supervisors,Elementary storage supervisors
+9252,Warehouse operatives,Warehouse operatives
+9253,Delivery operatives,Delivery operatives
+9259,Elementary storage occupations not elsewhere classified.,"Dockers, slingers and stevedores Elementary storage occupations not elsewhere classified."
+9261,Bar and catering supervisors,Bar and catering supervisors
+9262,Hospital porters,Hospital porters
+9263,Kitchen and catering assistants,Kitchen and catering assistants
+9264,Waiters and waitresses,Waiters and waitresses
+9265,Bar staff,Bar staff
+9266,Coffee shop workers,Coffee shop workers
+9267,Leisure and theme park attendants,Arcade attendants Cinema and theatre attendants Event stewards Gallery and museum attendants Ride attendants Leisure and theme park attendants not elsewhere classified.
+9269,Other elementary services occupations not elsewhere classified.,"Bingo callers and assistants Clairvoyants, mediums and astrologers Stagehands Turnstile operators Other elementary service occupations not elsewhere classified."
