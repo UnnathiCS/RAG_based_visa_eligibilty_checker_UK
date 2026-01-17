@@ -1,0 +1,8 @@
+streamlit
+beautifulsoup4
+requests
+pandas
+numpy
+python-dateutil
+sentence-transformers
+faiss-cpu
