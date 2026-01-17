@@ -47,6 +47,41 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.markdown("""
+<style>
+.card {
+    background: rgba(0,0,0,0.32);
+    backdrop-filter: blur(6px);
+    border-radius: 18px;
+    padding: 1.6rem;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+}
+.card-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #4cd4d2;
+    margin-bottom: 1rem;
+    background: transparent !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    display: block;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/* make form controls inside cards non-transparent and readable */
+.card [role="combobox"], .card select, .card input, .card textarea, .card [role="listbox"] {
+    background: rgba(255,255,255,0.06) !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    padding: 6px !important;
+}
+.card .st-bf { background: rgba(255,255,255,0.06) !important; }
+</style>
+""", unsafe_allow_html=True)
 # Reusable purpose options (used in Eligibility tab and eligibility-final)
 PURPOSE_OPTIONS = [
     'Tourism / holiday',
@@ -131,201 +166,38 @@ def retrieve_with_rag(failed_rules: list, visa_type: str = None, top_k: int = 3)
         from services.retrieval import retrieve_policy_chunks as fallback
         return fallback(failed_rules, visa_type=visa_type, top_k=top_k)
 
+import streamlit as st
+import base64
 
-# Custom CSS for Gemini-themed Dark Mode UI
-st.markdown("""
-<style>
-    /* Root dark theme */
-    html, body {
-        background-color: #4f82f0ff;
-        color: #ffffff;
-    }
-    
-    /* Main container */
-    .main { 
-        padding: 2rem;
-        background-color: #01014a;
-        color: #ffffff;
-    }
-    
-    /* Sidebar styling */
-    [data-testid="stSidebar"] {
-        background-color: #043277ff;
-        border-right: 1px solid #0a2957ff;
-    }
-    
-    /* Tab styling */
-    .stTabs [data-baseweb="tab-list"] { 
-        gap: 2rem;
-        border-bottom: 1px solid #0a2957ff;
-    }
-    
-    .stTabs [data-baseweb="tab"] { 
-        padding: 1rem;
-        color: #ffffff;
-        border-bottom: 2px solid transparent;
-    }
-    
-    .stTabs [data-baseweb="tab"][aria-selected="true"] {
-        border-bottom-color: #ffffff;
-        color: #ffffff;
-    }
-    
-    /* Metric cards */
-    .metric-card { 
-        background: linear-gradient(135deg, #3d68d8ff 0%, #4f82f0ff 50%, #2d5ac0ff 100%);
-        color: #ffffff;
-        padding: 1.5rem;
-        border-radius: 0.75rem;
-        box-shadow: 0 4px 12px rgba(79, 130, 240, 0.3);
-        border: 1px solid #3d68d8ff;
-    }
-    
-    /* Chunk results styling */
-    .chunk-result {
-        background: #043277ff;
-        padding: 1rem;
-        border-left: 4px solid #4f82f0ff;
-        border-radius: 0.5rem;
-        margin: 0.8rem 0;
-        border: 1px solid #0a2957ff;
-    }
-    
-    /* Answer box */
-    .answer-box {
-        background: linear-gradient(135deg, #3d68d8ff 0%, #043277ff 100%);
-        border-left: 4px solid #4f82f0ff;
-        padding: 1.5rem;
-        border-radius: 0.75rem;
-        margin: 1rem 0;
-        border: 1px solid #2d5ac0ff;
-        box-shadow: 0 4px 12px rgba(79, 130, 240, 0.2);
-    }
-    
-    /* Metadata info styling */
-    .metadata-info {
-        font-size: 0.85rem;
-        color: #b0c4ffff;
-        margin-top: 0.5rem;
-    }
-    
-    /* Text input styling */
-    .stTextArea, .stTextInput, [data-baseweb="input"] {
-        background-color: #043277ff !important;
-        border: 1px solid #2d5ac0ff !important;
-        color: #ffffff !important;
-    }
-    
-    .stTextArea:focus, .stTextInput:focus, [data-baseweb="input"]:focus {
-        border-color: #4f82f0ff !important;
-        color: #ffffff !important;
-    }
-    
-    /* Button styling */
-    .stButton > button {
-        background: linear-gradient(135deg, #3d68d8ff 0%, #4f82f0ff 100%);
-        color: #ffffff;
-        border: 1px solid #2d5ac0ff;
-        border-radius: 0.5rem;
-        padding: 0.75rem 1.5rem;
-        font-weight: 600;
-        transition: all 0.3s ease;
-    }
-    
-    .stButton > button:hover {
-        background: linear-gradient(135deg, #4f82f0ff 0%, #6a9effff 100%);
-        box-shadow: 0 4px 12px rgba(79, 130, 240, 0.4);
-    }
-    
-    /* Selectbox styling */
-    [data-baseweb="select"] {
-        background-color: #043277ff !important;
-        border: 1px solid #2d5ac0ff !important;
-    }
-    
-    /* Radio buttons */
-    [data-baseweb="radio"] {
-        color: #4f82f0ff;
-    }
-    
-    /* Sliders */
-    [data-baseweb="slider"] {
-        background-color: #043277ff;
-    }
-    
-    /* Headers and text */
-    h1 {
-        background: linear-gradient(90deg, #4f82f0ff, #6a9effff, #4f82f0ff);
-        background-size: 200% auto;
-        color: transparent;
-        background-clip: text;
-        -webkit-background-clip: text;
-        animation: shimmer 4s linear infinite;
-        font-weight: 700;
-    }
-    
-    @keyframes shimmer {
-        0% { background-position: 0% center; }
-        50% { background-position: 100% center; }
-        100% { background-position: 0% center; }
-    }
-    
-    h2, h3, h4, h5, h6 {
-        color: #ffffff;
-    }
-    
-    /* Links */
-    a {
-        color: #6a9effff;
-        text-decoration: none;
-    }
-    
-    a:hover {
-        color: #8ab8ffff;
-    }
-    
-    /* Success, warning, info colors */
-    .success {
-        color: #10b981;
-    }
-    
-    .warning {
-        color: #f59e0b;
-    }
-    
-    .info {
-        color: #4f82f0ff;
-    }
-    
-    /* Container styling */
-    [data-testid="stVerticalBlock"] > [data-testid="stVerticalBlock"] {
-        background-color: transparent;
-    }
-    
-    /* Dividers */
-    hr {
-        border-color: #0a2957ff;
-    }
-    
-    /* Scrollbar styling */
-    ::-webkit-scrollbar {
-        width: 8px;
-    }
-    
-    ::-webkit-scrollbar-track {
-        background: #4f82f0ff;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background: #043277ff;
-        border-radius: 4px;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-        background: #2d5ac0ff;
-    }
-</style>
-""", unsafe_allow_html=True)
+def add_bg_from_local_file(gif_path):
+    with open(gif_path, "rb") as f:
+        data = f.read()
+    encoded = base64.b64encode(data).decode()
+
+    st.markdown(
+        f"""
+        <style>
+        [data-testid="stAppViewContainer"] {{
+            background-image: url("data:image/gif;base64,{encoded}");
+            background-size:cover;
+            background-attachment: fixed;
+            background-position: center;
+        }}
+
+        .block-container {{
+            background: rgba(0, 0, 40, 0.8);
+            backdrop-filter: blur(2px);
+            border-radius: 12px;
+            padding: 2rem;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+gif_path = "/Users/unnathics/Documents/INTERNSHIP/INTERNSHIP/INFOSYS_SPRINGBOARD/static/UNITED KNIGDOMS (1).gif"
+
+add_bg_from_local_file(gif_path)
 
 
 class RAGSystemLoader:
@@ -497,51 +369,26 @@ def display_chunk_result(result, system_type):
 
 def main():
     # Header
-    st.markdown("# Visa Policy RAG Assistant")
-    st.markdown("<p style='color: #ffffff; font-size: 1.1rem;'>Query India and UK visa policies with AI-powered semantic search</p>", unsafe_allow_html=True)
+    st.markdown("# SwiftVisa: AI-Based Visa Eligibility Screening Agent")
+    st.markdown("<p style='color: #ffffff; font-size: 1.1rem;'>Query UK visa policies with AI-powered semantic search</p>", unsafe_allow_html=True)
     
     # Sidebar Configuration
     with st.sidebar:
-        st.markdown("## Configuration")
-        
+        st.markdown("## SwiftVisa: AI-Based Visa Eligibility Screening Agent")
+        st.markdown("<p style='color: #ffffff; font-size: 1.1rem;'>Query UK visa policies with AI-powered semantic search</p>", unsafe_allow_html=True)
         # System Selection
-        system_type = st.radio(
-            "Select Visa System:",
-            ["India Visa", "UK Visa"],
-            key="system_select"
-        )
+        system_type = "UK Visa"
         
-        system_key = "india" if "India" in system_type else "uk"
+        system_key = "uk"
         
         st.divider()
-        
-        st.markdown("### Query Settings")
-        top_k = st.slider(
-            "Number of chunks to retrieve:",
-            min_value=1,
-            max_value=10,
-            value=5,
-            key="top_k"
-        )
-        
-        st.divider()
-        
-        # System Information
-        st.markdown("### System Info")
-        if st.button("Refresh Statistics", key="refresh_stats"):
-            st.session_state.refresh_flag = True
-    
-    # Initialize Session State
-    if "rag_systems" not in st.session_state:
-        st.session_state.rag_systems = {}
-    
-    if "query_history" not in st.session_state:
-        st.session_state.query_history = []
-    
-    # Load Selected System
-    if system_key not in st.session_state.rag_systems:
+        # Ensure a place to cache loaded RAG systems in session state
+        if 'rag_systems' not in st.session_state:
+            st.session_state.rag_systems = {}
+
         with st.spinner(f"Loading {system_type} RAG system..."):
             rag = RAGSystemLoader(system_type=system_key)
+            # Load embedding model (may fail gracefully)
             rag.load_model()
             if rag.load_from_disk():
                 st.session_state.rag_systems[system_key] = rag
@@ -553,223 +400,13 @@ def main():
     
     rag = st.session_state.rag_systems[system_key]
     
-    # Display System Stats
-    stats = get_system_stats(rag)
-    if stats:
-        col1, col2, col3 = st.sidebar.columns(3)
-        with col1:
-            st.metric("Chunks", stats['total_chunks'])
-        with col2:
-            st.metric("Dimensions", stats['vector_dim'])
-        with col3:
-            st.metric("DB Size", f"{stats['db_size']:.1f} MB")
     
     st.sidebar.divider()
-    st.sidebar.markdown("### Quick Tips")
-    st.sidebar.markdown("""
-    <div style='background: #043277ff; border-left: 3px solid #4f82f0ff; padding: 1rem; border-radius: 0.5rem;'>
     
-    • **Specific queries** work best: "How to apply for Student Visa?"
-    • **Use keywords** from policies: visa type, requirements, eligibility
-    • **Check metadata** for source document information
-    • Multiple queries are supported in same session
-    
-    </div>
-    """, unsafe_allow_html=True)
-    
+   
     # Main Content Area
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Query", "Analytics", "Help", "Eligibility", "eligibility-final"])
-    
-    with tab1:
-        st.markdown("### Ask a Question")
-        
-        # Query Input
-        col1, col2 = st.columns([5, 1])
-        with col1:
-            query = st.text_area(
-                "Enter your question about visa policies:",
-                placeholder="E.g., What are the eligibility requirements for a Student Visa?",
-                height=100,
-                key="query_input"
-            )
-        
-        with col2:
-            st.write("")
-            st.write("")
-            search_button = st.button(" Search", key="search", use_container_width=True)
-        
-        if search_button and query.strip():
-            # Show loading state
-            with st.spinner(f" Searching {system_type} policies..."):
-                start_time = time.time()
-                answer, results = rag.query(query, top_k=top_k)
-                elapsed_time = time.time() - start_time
-            
-            # Store in history
-            st.session_state.query_history.append({
-                'timestamp': datetime.now(),
-                'system': system_key,
-                'query': query,
-                'num_results': len(results)
-            })
-            # Display Results
-            st.markdown("---")
-            
-            # Answer Section
-            if answer:
-                st.markdown(f"###  Generated Answer ({elapsed_time:.2f}s)")
-                with st.container():
-                    st.markdown(
-                        f'<div class="answer-box">{answer}</div>',
-                        unsafe_allow_html=True
-                    )
-            
-            # Retrieved Chunks
-            st.markdown("###  Retrieved Chunks")
-            
-            if results:
-                for result in results:
-                    display_chunk_result(result, system_key)
-                
-                st.success(f"Retrieved {len(results)} chunks from {system_type} database")
-            else:
-                st.warning("⚠️ No relevant chunks found")
-        
-        elif search_button:
-            st.warning("⚠️ Please enter a question")
-    
-    with tab2:
-        st.markdown("### Analytics Dashboard")
-        
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            st.markdown("####  Database Statistics")
-            if stats:
-                st.write(f"**Total Chunks:** {stats['total_chunks']}")
-                st.write(f"**Vector Dimension:** {stats['vector_dim']}-D")
-                st.write(f"**Database Size:** {stats['db_size']:.2f} MB")
-        
-        with col2:
-            st.markdown("####  System Comparison")
-            comparison_data = {
-                'System': ['India', 'UK'],
-                'Chunks': [582, 516],
-                'Source Pages': [72, 105],
-            }
-            st.dataframe(comparison_data, use_container_width=True)
-        
-        # Query History
-        st.markdown("#### Query History")
-        if st.session_state.query_history:
-            for i, q in enumerate(reversed(st.session_state.query_history[-10:]), 1):
-                col1, col2, col3, col4 = st.columns(4)
-                with col1:
-                    st.caption(f"**Query {i}**")
-                with col2:
-                    st.caption(f"🇮🇳 {q['system'].upper()}" if q['system'] == 'india' else f"🇬🇧 {q['system'].upper()}")
-                with col3:
-                    st.caption(f"{q['num_results']} results")
-                with col4:
-                    st.caption(q['timestamp'].strftime("%H:%M:%S"))
-                st.caption(f"_{q['query'][:80]}..._")
-                st.divider()
-        else:
-            st.info("ℹ️ No queries yet. Start by submitting a question!")
-    
-    with tab3:
-        st.markdown("### ❓ Help & Documentation")
-        
-        st.markdown("""
-        ####  How to Use
-        
-        1. **Select System**: Choose between India or UK visa policies in the sidebar
-        2. **Ask Questions**: Enter specific questions about visa requirements, eligibility, etc.
-        3. **Review Results**: See the AI-generated answer and supporting chunks
-        4. **Check Sources**: Each chunk includes metadata about its origin
-        
-        ####  Search Tips
-        
-        - **Be Specific**: "What documents do I need for Student Visa?" vs "Student Visa"
-        - **Use Keywords**: Reference visa types, processes, or requirements directly
-        - **Ask One Thing**: Focus on single topics for better results
-        - **Review Chunks**: Always verify the retrieved chunks support the answer
-        
-        ####  System Architecture
-        
-        **Components:**
-        - **Vector Store**: FAISS (Fast Approximate Nearest Neighbor Search)
-        - **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)
-        - **LLM**: Mistral 7B via Ollama (local inference)
-        - **Databases**: 
-          - India: 582 chunks from 72 pages
-          - UK: 516 chunks from 105 pages
-        
-        ####  Requirements
-        
-        **Before running:**
-        1. Install Python packages:
-           ```
-           pip install streamlit faiss-cpu sentence-transformers PyPDF2 requests torch numpy
-           ```
-        2. Start Ollama:
-           ```
-           ollama serve
-           ```
-           (In another terminal, pull model: `ollama pull mistral`)
-        
-        3. Run the app:
-           ```
-           streamlit run streamlit_app.py
-           ```
-        
-        ####  File Structure
-        
-        ```
-        ├── streamlit_app.py          (This file)
-        ├── rag_system_clean.py       (India RAG system)
-        ├── rag_system_uk.py          (UK RAG system)
-        ├── visa_db/                  (India database)
-        │   ├── faiss.index
-        │   ├── chunks.pkl
-        │   └── metadata.json
-        └── uk_visa_db/               (UK database)
-            ├── faiss.index
-            ├── chunks.pkl
-            └── metadata.json
-        ```
-        
-        ####  Metadata Fields
-        
-        Each retrieved chunk includes:
-        - **visa_type**: Type of visa (Student, Skilled Worker, etc.)
-        - **section**: Policy section (Eligibility, Requirements, etc.)
-        - **process**: Process type (Application, Assessment, etc.)
-        - **source**: Source document (for UK system)
-        - **page**: Page number in original document
-        
-        ####  Integration
-        
-        This Streamlit app queries pre-built FAISS indices. To rebuild databases:
-        ```
-        python rag_system_clean.py      # Rebuild India DB
-        python rag_system_uk.py         # Rebuild UK DB
-        ```
-        """)
-        
-        st.divider()
-        
-        st.markdown("#### 📱 About This Application")
-        st.info("""
-        **Visa Policy RAG Assistant** v1.0
-        
-        A semantic search interface powered by AI for visa policy documents.
-        - Supports both India and UK visa policies
-        - Uses local LLM inference (no API costs)
-        - Open-source and customizable
-        
-        Built with ❤️ using Streamlit, FAISS, and Ollama
-        """)
+    tab4, tab5 = st.tabs([ "Eligibility-Detailed", "Eligibility-Basic"])
+   
 
     # --- Eligibility Check (multi-visa, progressive 3-step flow) ---
     with tab4:
@@ -1872,21 +1509,27 @@ def main():
         if st.session_state.elig_step == 'basic':
             with st.form(f'basic_form_{visa_type}'):
                 st.write('#### Basic information')
+                # Render inputs in a responsive card-grid while preserving original keys and behaviour
+                st.markdown('<div class="card-grid">', unsafe_allow_html=True)
+                # Column-like cards using markup; inputs keep the same session keys
+
+                st.markdown('<div class="card">', unsafe_allow_html=True)
+                st.markdown('<div class="card-title">Personal</div>', unsafe_allow_html=True)
                 st.markdown("**Date of birth***", unsafe_allow_html=True)
-                # date picker with extended range so year selector goes beyond 2026
                 dob = st.date_input('', key='basic_date_of_birth', min_value=date(1900, 1, 1), max_value=date(2100, 12, 31), help='Required. Format: YYYY-MM-DD')
-                # info button for DOB
                 field_info_toggle('dob', 'Enter your date of birth. Format: YYYY-MM-DD. Use the calendar to pick year; range is 1900-2100.')
+
                 st.markdown("**Nationality***", unsafe_allow_html=True)
-                # Use a reasonable country list; PASSPORT_FORMATS keys contain many common issuing countries
                 country_options = sorted(list(PASSPORT_FORMATS.keys())) + ['Other']
                 nationality = st.selectbox('', country_options, index=0, key='basic_nationality', help='Required. Choose your nationality from the list or select Other to type.')
                 field_info_toggle('nationality', 'Select your country of nationality from the dropdown. If Other, specify in the box that appears.')
                 other_nationality = None
                 if nationality == 'Other':
                     other_nationality = st.text_input('Please specify nationality', key='basic_nationality_other', help='Type your nationality, e.g., Brazil')
+                st.markdown('</div>', unsafe_allow_html=True)
 
-                # Passport fields (issue/expiry) and issuing country
+                st.markdown('<div class="card">', unsafe_allow_html=True)
+                st.markdown('<div class="card-title">Passport & Location</div>', unsafe_allow_html=True)
                 country_options = sorted(list(PASSPORT_FORMATS.keys())) + ['Other']
                 passport_issuing_country = st.selectbox('Passport issuing country', country_options, key='basic_passport_issuing_country')
                 if passport_issuing_country == 'Other':
@@ -1895,37 +1538,31 @@ def main():
                 passport_issue_date = st.date_input('Passport issue date', key='basic_passport_issue_date', min_value=date(1900,1,1), max_value=date(2100,12,31))
                 passport_expiry_date = st.date_input('Passport expiry date', key='basic_passport_expiry_date', min_value=date(1900,1,1), max_value=date(2100,12,31))
 
-                # Current location dropdown (inside/outside UK) — keeps previous semantics but removes subjective checkbox
                 currently_in_uk = st.selectbox('Where are you applying from?', ['Inside the UK', 'Outside the UK'], key='basic_current_location')
-                # normalize boolean for existing code compatibility
                 currently_in_uk_bool = (currently_in_uk == 'Inside the UK')
+                st.markdown('</div>', unsafe_allow_html=True)
 
-                # Basic routing information only — subjective yes/no checks moved to Core
+                st.markdown('<div class="card">', unsafe_allow_html=True)
+                st.markdown('<div class="card-title">Health & Routing</div>', unsafe_allow_html=True)
                 field_info_toggle('cas', 'A CAS (Confirmation of Acceptance for Studies) is issued by the licensed sponsor. It usually looks like a reference number and is required for Student route applications.')
 
-                # TB check: conditionally show TB test date if nationality requires it
                 tb_required_set = fetch_tb_required_countries()
                 tb_test_date = None
-                # ensure the submit variable is always defined regardless of conditional branches
                 submitted = None
                 nat_value = (other_nationality.strip() if other_nationality else nationality)
-                # normalize membership check to be case-insensitive
                 nat_norm = nat_value.strip().lower() if nat_value else ''
                 tb_required_norm = set([c.strip().lower() for c in tb_required_set])
                 if nat_norm and nat_norm in tb_required_norm:
                     st.warning('Applicants from this country usually need a TB test to apply for a UK visa.')
                     tb_test_date = st.date_input('TB test date (if taken)', key='basic_tb_test_date', min_value=date(1900,1,1), max_value=date(2100,12,31), help='Provide the TB test date if you already had one.')
 
-                    submitted = st.form_submit_button('Run Basic Check', key=f'btn_run_basic_{visa_type}')
+                # submit button (keeps identical key)
+                submitted = st.form_submit_button('Run Basic Check', key=f'btn_run_basic_{visa_type}')
+                st.markdown('</div>', unsafe_allow_html=True)
 
-                # If TB branch didn't create the submit button (common case), create it here once
-                if submitted is None:
-                    submitted = st.form_submit_button('Run Basic Check', key=f'btn_run_basic_{visa_type}')
+                st.markdown('</div>', unsafe_allow_html=True)
 
             if submitted:
-                # Debugging helper: show immediate feedback so users know the button click was registered
-                # st.info('Form submitted — running basic checks...')
-                # prepare data shape expected by rules and store in session
                 data = {
                     'date_of_birth': dob,
                     'nationality': nat_value,
@@ -1938,36 +1575,28 @@ def main():
                 }
                 st.session_state.elig_form.update(data)
 
-                # For Student, keep Basic lightweight (routing only) and run a stub so we don't require
-                # subjective booleans yet; core will compute eligibility from structured inputs.
                 if visa_type == 'Student':
                     result = evaluate_stub('basic', st.session_state.elig_form)
                 else:
                     result = evaluate_stub('basic', st.session_state.elig_form)
 
                 st.session_state.elig_result = result
-                # quick debug output (visible to user) to confirm the computed result
-                # st.write('Debug: basic result', result)
 
-            # Render stored result (if any) so the UI persists between reruns
+            # preserve existing rendering behavior below
             if st.session_state.get('elig_result'):
                 result = st.session_state.elig_result
                 if result.get('failed_rules'):
                     st.error('❌ Basic checks failed')
-                    # Show a short deterministic quick reason immediately (no LLM required)
                     failed = result.get('failed_rules', [])
                     reasons = [RULE_SHORT_REASON.get(r, f'failed requirement {r}') for r in failed]
                     if reasons:
                         one_line = 'Not eligible because ' + '; '.join(reasons) + '.'
                         st.markdown(f"**Quick reason:** {one_line}")
-                    # retrieve citations and explanation
                     retrieved = retrieve_with_rag(result.get('failed_rules', []))
                     st.session_state.elig_retrieved = retrieved
-                    # Call LLM for fuller explanation (may fallback quickly)
                     expl = llm_explain({'rule_results': result}, retrieved)
                     st.session_state.elig_explanation = expl
 
-                    # Show LLM explanation if available
                     st.markdown('### LLM Explanation')
                     if expl:
                         st.markdown(f"**Decision:** {expl.get('decision')}")
@@ -2375,38 +2004,50 @@ def main():
         # Step 1: common details form. User fills these and clicks Continue.
         with st.form(key='elig_final_common_form'):
             st.markdown('#### Common details')
-            full_name = st.text_input('Full name', key='ef_full_name')
-            dob = st.date_input('Date of birth', key='ef_dob', min_value=date(1900,1,1), max_value=date(2100,12,31))
-            nationality = st.selectbox('Nationality', country_options, index=0, key='ef_nationality')
-            if nationality == 'Other':
-                nationality = st.text_input('Please specify nationality', key='ef_nationality_other')
+            # Use Streamlit columns to ensure side-by-side layout inside the form
+            col1, col2, col3 = st.columns(3)
 
-            passport_issuing_country = st.selectbox('Passport issuing country', country_options, index=0, key='ef_passport_issuing')
-            if passport_issuing_country == 'Other':
-                passport_issuing_country = st.text_input('Please specify issuing country', key='ef_passport_issuing_other')
-            passport_issue_date = st.date_input('Passport issue date', key='ef_passport_issue', min_value=date(1900,1,1), max_value=date(2100,12,31))
-            passport_expiry_date = st.date_input('Passport expiry date', key='ef_passport_expiry', min_value=date(1900,1,1), max_value=date(2100,12,31))
+            with col1:
+                st.markdown('<div class="card">', unsafe_allow_html=True)
+                st.markdown('<div class="card-title">Personal details</div>', unsafe_allow_html=True)
+                full_name = st.text_input('Full name', key='ef_full_name')
+                dob = st.date_input('Date of birth', key='ef_dob', min_value=date(1900,1,1), max_value=date(2100,12,31))
+                nationality = st.selectbox('Nationality', country_options, index=0, key='ef_nationality')
+                if nationality == 'Other':
+                    nationality = st.text_input('Please specify nationality', key='ef_nationality_other')
+                st.markdown('</div>', unsafe_allow_html=True)
 
-            current_location = st.selectbox('Current location', ['Inside the UK', 'Outside the UK'], index=1, key='ef_current_location')
-            # Reuse global PURPOSE_OPTIONS defined at module level
-            purpose_of_visit = st.selectbox('Purpose of visit / stay', PURPOSE_OPTIONS, key='ef_purpose')
-            purpose = purpose_of_visit
-            purpose_other = ''
-            if purpose_of_visit == 'Other (specify)':
-                purpose_other = st.text_input('Please specify purpose', key='ef_purpose_other')
-                purpose = purpose_other or purpose_of_visit
-            travel_start = st.date_input('Planned travel start', key='ef_travel_start', min_value=date(1900,1,1), max_value=date(2100,12,31))
-            travel_end = st.date_input('Planned travel end', key='ef_travel_end', min_value=date(1900,1,1), max_value=date(2100,12,31))
+            with col2:
+                st.markdown('<div class="card">', unsafe_allow_html=True)
+                st.markdown('<div class="card-title">Travel & purpose</div>', unsafe_allow_html=True)
+                passport_issuing_country = st.selectbox('Passport issuing country', country_options, index=0, key='ef_passport_issuing')
+                if passport_issuing_country == 'Other':
+                    passport_issuing_country = st.text_input('Please specify issuing country', key='ef_passport_issuing_other')
+                passport_issue_date = st.date_input('Passport issue date', key='ef_passport_issue', min_value=date(1900,1,1), max_value=date(2100,12,31))
+                passport_expiry_date = st.date_input('Passport expiry date', key='ef_passport_expiry', min_value=date(1900,1,1), max_value=date(2100,12,31))
+                current_location = st.selectbox('Current location', ['Inside the UK', 'Outside the UK'], index=1, key='ef_current_location')
+                purpose_of_visit = st.selectbox('Purpose of visit / stay', PURPOSE_OPTIONS, key='ef_purpose')
+                purpose = purpose_of_visit
+                purpose_other = ''
+                if purpose_of_visit == 'Other (specify)':
+                    purpose_other = st.text_input('Please specify purpose', key='ef_purpose_other')
+                    purpose = purpose_other or purpose_of_visit
+                travel_start = st.date_input('Planned travel start', key='ef_travel_start', min_value=date(1900,1,1), max_value=date(2100,12,31))
+                travel_end = st.date_input('Planned travel end', key='ef_travel_end', min_value=date(1900,1,1), max_value=date(2100,12,31))
+                st.markdown('</div>', unsafe_allow_html=True)
 
-            funds_available = st.number_input('Funds available (GBP)', min_value=0.0, value=0.0, key='ef_funds')
-            english_proficiency = st.selectbox('Do you meet the required English proficiency?', ['Yes', 'No'], index=0, key='ef_english')
-            criminal_convictions = st.selectbox('Any criminal convictions?', ['No', 'Yes'], index=0, key='ef_criminal')
-            past_refusals = st.selectbox('Any visa refusals in last 10 years?', ['No', 'Yes'], index=0, key='ef_refusals')
-
-            st.markdown('#### Contact')
-            email = st.text_input('Email', key='ef_email')
-            phone = st.text_input('Phone', key='ef_phone')
-            address = st.text_area('Address', key='ef_address')
+            with col3:
+                st.markdown('<div class="card">', unsafe_allow_html=True)
+                st.markdown('<div class="card-title">Contact & funds</div>', unsafe_allow_html=True)
+                funds_available = st.number_input('Funds available (GBP)', min_value=0.0, value=0.0, key='ef_funds')
+                english_proficiency = st.selectbox('Do you meet the required English proficiency?', ['Yes', 'No'], index=0, key='ef_english')
+                criminal_convictions = st.selectbox('Any criminal convictions?', ['No', 'Yes'], index=0, key='ef_criminal')
+                past_refusals = st.selectbox('Any visa refusals in last 10 years?', ['No', 'Yes'], index=0, key='ef_refusals')
+                st.markdown('#### Contact')
+                email = st.text_input('Email', key='ef_email')
+                phone = st.text_input('Phone', key='ef_phone')
+                address = st.text_area('Address', key='ef_address')
+                st.markdown('</div>', unsafe_allow_html=True)
 
             continue_common = st.form_submit_button('Continue')
 
@@ -2539,113 +2180,128 @@ def main():
 
                 if visa_type == 'Graduate':
                     st.markdown('#### Graduate')
-                    currently_in_uk = st.selectbox('Currently in the UK?', ['No','Yes'])
-                    current_uk_visa_type = st.selectbox('Current UK visa type',['Student','Tier 4'])
-                    course_completed = st.selectbox('Course completed?', ['No','Yes'])
-                    course_level_completed = st.selectbox('Course level completed', ['RQF3','RQF4','RQF5','RQF6','RQF7','RQF8'])
-                    education_provider_is_licensed = st.selectbox('Education provider licensed?', ['No','Yes'])
-                    provider_reported_completion_to_home_office = st.selectbox('Provider reported completion?', ['No','Yes'])
-                    original_cas_reference = st.text_input('Original CAS reference')
-                    student_visa_valid_on_application_date = st.selectbox('Student visa valid on application date?', ['No','Yes'])
+                    col_a, col_b = st.columns(2)
+                    with col_a:
+                        currently_in_uk = st.selectbox('Currently in the UK?', ['No','Yes'])
+                        current_uk_visa_type = st.selectbox('Current UK visa type',['Student','Tier 4'])
+                        course_completed = st.selectbox('Course completed?', ['No','Yes'])
+                        course_level_completed = st.selectbox('Course level completed', ['RQF3','RQF4','RQF5','RQF6','RQF7','RQF8'])
+                    with col_b:
+                        education_provider_is_licensed = st.selectbox('Education provider licensed?', ['No','Yes'])
+                        provider_reported_completion_to_home_office = st.selectbox('Provider reported completion?', ['No','Yes'])
+                        original_cas_reference = st.text_input('Original CAS reference')
+                        student_visa_valid_on_application_date = st.selectbox('Student visa valid on application date?', ['No','Yes'])
 
 
                 elif visa_type == 'Student':
                     st.markdown('#### Student')
-                    # Specified student fields as a compact yes/no form
-                    has_cas = st.selectbox('Do you have a CAS?', ['No', 'Yes'], index=0, key='ef_student_has_cas')
-                    cas_reference_number = ''
-                    if has_cas == 'Yes':
-                        cas_reference_number = st.text_input('CAS reference number', key='ef_student_cas_ref')
+                    col_a, col_b = st.columns(2)
+                    with col_a:
+                        # Specified student fields as a compact yes/no form (left column)
+                        has_cas = st.selectbox('Do you have a CAS?', ['No', 'Yes'], index=0, key='ef_student_has_cas')
+                        cas_reference_number = ''
+                        if has_cas == 'Yes':
+                            cas_reference_number = st.text_input('CAS reference number', key='ef_student_cas_ref')
 
-                    education_provider_is_licensed = st.selectbox('Is the education provider licensed?', ['No', 'Yes'], index=0, key='ef_student_provider_licensed')
+                        education_provider_is_licensed = st.selectbox('Is the education provider licensed?', ['No', 'Yes'], index=0, key='ef_student_provider_licensed')
 
-                    # Use RQF dropdown for course level per requirements
-                    course_level_options = ['RQF3', 'RQF4', 'RQF5', 'RQF6', 'RQF7', 'RQF8']
-                    course_level = st.selectbox('Course level (RQF)', course_level_options, index=0, key='ef_student_course_level')
+                        # Use RQF dropdown for course level per requirements
+                        course_level_options = ['RQF3', 'RQF4', 'RQF5', 'RQF6', 'RQF7', 'RQF8']
+                        course_level = st.selectbox('Course level (RQF)', course_level_options, index=0, key='ef_student_course_level')
 
-                    course_full_time = st.selectbox('Is the course full-time?', ['No', 'Yes'], index=0, key='ef_student_course_full_time')
-                    course_start = st.date_input('Course start date', key='ef_student_course_start', min_value=date(1900,1,1), max_value=date(2100,12,31))
-                    course_end = st.date_input('Course end date', key='ef_student_course_end', min_value=date(1900,1,1), max_value=date(2100,12,31))
-                    course_duration_months = st.number_input('Course duration (months)', min_value=0, value=0, key='ef_student_course_duration_months')
+                        course_full_time = st.selectbox('Is the course full-time?', ['No', 'Yes'], index=0, key='ef_student_course_full_time')
+                        course_start = st.date_input('Course start date', key='ef_student_course_start', min_value=date(1900,1,1), max_value=date(2100,12,31))
+                        course_end = st.date_input('Course end date', key='ef_student_course_end', min_value=date(1900,1,1), max_value=date(2100,12,31))
+                    with col_b:
+                        course_duration_months = st.number_input('Course duration (months)', min_value=0, value=0, key='ef_student_course_duration_months')
 
-                    meets_financial_requirement = st.selectbox('Do you meet the financial requirement?', ['No', 'Yes'], index=0, key='ef_student_meets_financial')
-                    funds_held_for_28_days = st.selectbox('Have the required funds been held for 28 days?', ['No', 'Yes'], index=0, key='ef_student_funds_28')
-                    english_requirement_met = st.selectbox('Is the English requirement met?', ['No', 'Yes'], index=0, key='ef_student_english')
+                        meets_financial_requirement = st.selectbox('Do you meet the financial requirement?', ['No', 'Yes'], index=0, key='ef_student_meets_financial')
+                        funds_held_for_28_days = st.selectbox('Have the required funds been held for 28 days?', ['No', 'Yes'], index=0, key='ef_student_funds_28')
+                        english_requirement_met = st.selectbox('Is the English requirement met?', ['No', 'Yes'], index=0, key='ef_student_english')
 
                 elif visa_type == 'Skilled Worker':
-                    job_offer_confirmed = st.selectbox('Job offer confirmed?', ['No', 'Yes'])
-                    employer_is_licensed_sponsor = st.selectbox('Employer is licensed sponsor?', ['No', 'Yes'])
-                    certificate_of_sponsorship_issued = st.selectbox('Certificate of Sponsorship issued?', ['No', 'Yes'])
-                    cos_reference_number = st.text_input('CoS reference number')
+                    st.markdown('#### Skilled Worker')
+                    col_a, col_b = st.columns(2)
+                    with col_a:
+                        job_offer_confirmed = st.selectbox('Job offer confirmed?', ['No', 'Yes'])
+                        employer_is_licensed_sponsor = st.selectbox('Employer is licensed sponsor?', ['No', 'Yes'])
+                        certificate_of_sponsorship_issued = st.selectbox('Certificate of Sponsorship issued?', ['No', 'Yes'])
+                        cos_reference_number = st.text_input('CoS reference number')
 
-                    # CSV-driven dropdown
-                    job_title = st.selectbox('Job title', [''] + sorted(JOB_TITLE_TO_SOC.keys()))
+                        # CSV-driven dropdown
+                        job_title = st.selectbox('Job title', [''] + sorted(JOB_TITLE_TO_SOC.keys()))
 
-                    if 'soc_code' not in st.session_state:
-                        st.session_state.soc_code = ''
+                        if 'soc_code' not in st.session_state:
+                            st.session_state.soc_code = ''
 
-                    if job_title and st.session_state.get('last_job_title') != job_title:
-                        st.session_state.soc_code = JOB_TITLE_TO_SOC.get(job_title, '')
-                        st.session_state.last_job_title = job_title
+                        if job_title and st.session_state.get('last_job_title') != job_title:
+                            st.session_state.soc_code = JOB_TITLE_TO_SOC.get(job_title, '')
+                            st.session_state.last_job_title = job_title
 
-                    soc_code = st.text_input('SOC code(updates automatically according to title no need to fill)', value=st.session_state.soc_code)
+                        soc_code = st.text_input('SOC code(updates automatically according to title no need to fill)', value=st.session_state.soc_code)
 
-                    
-
-                    job_is_eligible_occupation = st.selectbox('Job is eligible occupation?', ['No', 'Yes'])
-                    salary_offered = st.number_input('Salary offered (£)', min_value=0.0, value=0.0)
-                    meets_minimum_salary_threshold = st.selectbox('Meets minimum salary threshold?', ['No', 'Yes'])
-                    english_requirement_met = st.selectbox('English requirement met?', ['No', 'Yes'])
-                    criminal_record_certificate_required = st.selectbox('Criminal record certificate required?', ['No', 'Yes'])
-                    criminal_record_certificate_provided = st.selectbox('Criminal record certificate provided?', ['No', 'Yes'])
+                    with col_b:
+                        job_is_eligible_occupation = st.selectbox('Job is eligible occupation?', ['No', 'Yes'])
+                        salary_offered = st.number_input('Salary offered (£)', min_value=0.0, value=0.0)
+                        meets_minimum_salary_threshold = st.selectbox('Meets minimum salary threshold?', ['No', 'Yes'])
+                        english_requirement_met = st.selectbox('English requirement met?', ['No', 'Yes'])
+                        criminal_record_certificate_required = st.selectbox('Criminal record certificate required?', ['No', 'Yes'])
+                        criminal_record_certificate_provided = st.selectbox('Criminal record certificate provided?', ['No', 'Yes'])
 
 
                 elif visa_type == 'Health and Care Worker':
-                    job_offer_confirmed = st.selectbox('Job offer confirmed?', ['No','Yes'])
-                    employer_is_licensed_healthcare_sponsor = st.selectbox('Employer is licensed healthcare sponsor?', ['No','Yes'])
-                    certificate_of_sponsorship_issued = st.selectbox('Certificate of Sponsorship issued?', ['No','Yes'])
-                    cos_reference_number = st.text_input('CoS reference number')
-                    hc_titles = sorted(list(DEFAULT_JOB_TITLE_TO_SOC.keys()))
-                    job_title = st.selectbox(
-                        "Job title (choose)",
-                        ["-- select --"] + hc_titles,
-                        key="hc_job_title"
-                    )
-                    # Auto-fill SOC code from mapping
-                    if hc_job_title != "-- select --":
-                        st.session_state.hc_soc_code = DEFAULT_JOB_TITLE_TO_SOC.get(job_title, "")
-                        st.session_state.hc_last_job_title = hc_job_title
-                    else:
-                        st.session_state.hc_soc_code = ""
+                    st.markdown('#### Health and Care Worker')
+                    col_a, col_b = st.columns(2)
+                    with col_a:
+                        job_offer_confirmed = st.selectbox('Job offer confirmed?', ['No','Yes'])
+                        employer_is_licensed_healthcare_sponsor = st.selectbox('Employer is licensed healthcare sponsor?', ['No','Yes'])
+                        certificate_of_sponsorship_issued = st.selectbox('Certificate of Sponsorship issued?', ['No','Yes'])
+                        cos_reference_number = st.text_input('CoS reference number')
+                        hc_titles = sorted(list(DEFAULT_JOB_TITLE_TO_SOC.keys()))
+                        job_title = st.selectbox(
+                            "Job title (choose)",
+                            ["-- select --"] + hc_titles,
+                            key="hc_job_title"
+                        )
+                        # Auto-fill SOC code from mapping
+                        if hc_job_title != "-- select --":
+                            st.session_state.hc_soc_code = DEFAULT_JOB_TITLE_TO_SOC.get(job_title, "")
+                            st.session_state.hc_last_job_title = hc_job_title
+                        else:
+                            st.session_state.hc_soc_code = ""
+                        # SOC code input (editable)
+                        soc_code = st.text_input(
+                            "SOC code (auto-filled from job title)",
+                            key="hc_soc_code"
+                        )
 
-                    # SOC code input (editable)
-                    soc_code = st.text_input(
-                        "SOC code (auto-filled from job title)",
-                        key="hc_soc_code"
-                    )
-                    
-                    job_is_eligible_healthcare_role = st.selectbox('Job is eligible healthcare role?', ['No','Yes'])
-                    salary_offered = st.number_input('Salary offered', min_value=0.0)
-                    meets_healthcare_salary_rules = st.selectbox('Meets healthcare salary rules?', ['No','Yes'])
-                    professional_registration_required = st.selectbox('Professional registration required?', ['No','Yes'])
-                    professional_registration_provided = st.selectbox('Professional registration provided?', ['No','Yes'])
-                    english_requirement_met = st.selectbox('English requirement met?', ['No','Yes'])
+                    with col_b:
+                        job_is_eligible_healthcare_role = st.selectbox('Job is eligible healthcare role?', ['No','Yes'])
+                        salary_offered = st.number_input('Salary offered', min_value=0.0)
+                        meets_healthcare_salary_rules = st.selectbox('Meets healthcare salary rules?', ['No','Yes'])
+                        professional_registration_required = st.selectbox('Professional registration required?', ['No','Yes'])
+                        professional_registration_provided = st.selectbox('Professional registration provided?', ['No','Yes'])
+                        english_requirement_met = st.selectbox('English requirement met?', ['No','Yes'])
 
 
                 else:  # Standard Visitor
                     st.markdown('#### Visitor')
-                    purpose_of_visit = st.selectbox(
-                        'Purpose of visit / stay',
-                        PURPOSE_OPTIONS,
-                        key='ef_purpose_f'
-                    )
-                    purpose_is_permitted_under_visitor_rules = st.selectbox('Purpose permitted under visitor rules?', ['No','Yes'])
-                    intended_length_of_stay = st.number_input('Length of stay (days)', min_value=0)
-                    stay_within_6_months_limit = st.selectbox('Stay within 6 month limit?', ['No','Yes'])
-                    accommodation_arranged = st.selectbox('Accommodation arranged?', ['No','Yes'])
-                    return_or_onward_travel_planned = st.selectbox('Return or onward travel planned?', ['No','Yes'])
-                    intends_to_leave_uk_after_visit = st.selectbox('Intends to leave UK after visit?', ['No','Yes'])
-                    sufficient_funds_for_stay = st.selectbox('Sufficient funds for stay?', ['No','Yes'])
+                    col_a, col_b = st.columns(2)
+                    with col_a:
+                        purpose_of_visit = st.selectbox(
+                            'Purpose of visit / stay',
+                            PURPOSE_OPTIONS,
+                            key='ef_purpose_f'
+                        )
+                        purpose_is_permitted_under_visitor_rules = st.selectbox('Purpose permitted under visitor rules?', ['No','Yes'])
+                        intended_length_of_stay = st.number_input('Length of stay (days)', min_value=0)
+
+                    with col_b:
+                        stay_within_6_months_limit = st.selectbox('Stay within 6 month limit?', ['No','Yes'])
+                        accommodation_arranged = st.selectbox('Accommodation arranged?', ['No','Yes'])
+                        return_or_onward_travel_planned = st.selectbox('Return or onward travel planned?', ['No','Yes'])
+                        intends_to_leave_uk_after_visit = st.selectbox('Intends to leave UK after visit?', ['No','Yes'])
+                        sufficient_funds_for_stay = st.selectbox('Sufficient funds for stay?', ['No','Yes'])
 
 
                 submit_visa = st.form_submit_button('Run eligibility-final check', key=f'btn_run_elig_final_{visa_type}')

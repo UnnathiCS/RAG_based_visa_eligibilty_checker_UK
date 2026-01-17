@@ -1,16 +1,9 @@
 [theme]
-primaryColor = "#01014a"
-backgroundColor = "#01014a"
-secondaryBackgroundColor = "#028684ff"
-textColor = "#ffffff"
+primaryColor = "#4cd4d2"
+backgroundColor = "#fffefeff"
+secondaryBackgroundColor = "#03a8aeff"
+textColor = "##b0b0bff"
 font = "sans serif"
-
-[client]
-showErrorDetails = true
-showWarningOnDirectExecution = true
-
-[logger]
-level = "warning"
 
 [server]
 port = 8501
